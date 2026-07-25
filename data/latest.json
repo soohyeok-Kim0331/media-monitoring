@@ -3,12 +3,20 @@
   "categories": {
     "ESG 공통": [
       {
-        "title": "더 꼼꼼하고 신중해졌다...기업 ESG 소통 방식에 중대 변화",
-        "link": "https://www.esgeconomy.com/news/articleView.html?idxno=16128",
+        "title": "정부, ESG 공시 전문인력 양성과정 확대 편성",
+        "link": "https://www.esgeconomy.com/news/articleView.html?idxno=16124",
         "date": "2026-07-23",
         "press": "ESG경제",
         "domain": "esgeconomy.com",
-        "reason": "탄소중립 홍보에서 선별적 ESG 소통으로 바뀐 기업 전략 변화를 다뤄 경영 대응 관점에서 유효하고 담백한 제목의 분석 기사"
+        "reason": "규칙 기반 자동 선정 (AI 미사용)"
+      },
+      {
+        "title": "ESG 공시 전문인력 1000명 양성, 탈플라스틱 전환 기술진단 착수",
+        "link": "http://www.impacton.net/news/articleView.html?idxno=19688",
+        "date": "2026-07-23",
+        "press": "임팩트온",
+        "domain": "impacton.net",
+        "reason": "규칙 기반 자동 선정 (AI 미사용)"
       },
       {
         "title": "SBTi, 넷제로 인증 준비 6개월 이상 소요...필요 데이터는?",
@@ -16,23 +24,15 @@
         "date": "2026-07-22",
         "press": "ESG경제",
         "domain": "esgeconomy.com",
-        "reason": "SBTi 넷제로 인증에 필요한 데이터·소요기간을 다뤄 국제 이니셔티브 대응이라는 기업 실무 이슈를 짚음"
+        "reason": "규칙 기반 자동 선정 (AI 미사용)"
       },
       {
-        "title": "한국표준협회 “ESG 의무 공시, 연결회사 데이터 기준부터 맞춰야”",
-        "link": "http://www.impacton.net/news/articleView.html?idxno=19665",
-        "date": "2026-07-21",
+        "title": "7월 4주차 해외 ESG 핫클립",
+        "link": "http://www.impacton.net/news/articleView.html?idxno=19696",
+        "date": "2026-07-23",
         "press": "임팩트온",
         "domain": "impacton.net",
-        "reason": "ESG 의무공시 대비 연결기준 데이터 정합성 문제를 지적해 기업이 실제 대응해야 할 과제를 제시"
-      },
-      {
-        "title": "미 CSO 15년만에 첫 감소...핵심 흐름은?",
-        "link": "http://www.impacton.net/news/articleView.html?idxno=19662",
-        "date": "2026-07-21",
-        "press": "임팩트온",
-        "domain": "impacton.net",
-        "reason": "미국 CSO 수 첫 감소라는 조직 구조 변화를 통해 기업의 지속가능성 거버넌스 재편 흐름을 보여줌"
+        "reason": "규칙 기반 자동 선정 (AI 미사용)"
       }
     ],
     "환경(Environment)": [
@@ -42,57 +42,49 @@
         "date": "2026-07-24",
         "press": "임팩트온",
         "domain": "impacton.net",
-        "reason": "현대차·GM·테슬라의 전기차 둔화 대응 전략 재편을 다룬 최신(0일전) 기사로 기업 경영 영향이 뚜렷함"
+        "reason": "규칙 기반 자동 선정 (AI 미사용)"
       },
       {
-        "title": "탄소중립법 개정안 '범위형 감축경로' 국회 상임위 소위 통과, 정부 선택에 산업계 투자부담 갈린다",
-        "link": "https://www.businesspost.co.kr/BP?command=article_view&num=442866",
-        "date": "2026-07-22",
-        "press": "비즈니스포스트",
-        "domain": "businesspost.co.kr",
-        "reason": "탄소중립기본법 개정안의 범위형 감축목표가 철강·석유화학·시멘트 등 탄소집약 업종 투자부담에 미치는 영향을 다뤄 기업 대응 이슈로 적합"
+        "title": "테슬라, 2040년 탄소중립 선언…배출 늘었는데 2030년 감축목표는 없다",
+        "link": "http://www.impacton.net/news/articleView.html?idxno=19703",
+        "date": "2026-07-24",
+        "press": "임팩트온",
+        "domain": "impacton.net",
+        "reason": "규칙 기반 자동 선정 (AI 미사용)"
       },
       {
-        "title": "EU 온실가스 배출권거래제에 국제선 항공편 편입 발표, 미국 \"깊은 우려\" 표명",
-        "link": "https://www.businesspost.co.kr/BP?command=article_view&num=442727",
-        "date": "2026-07-21",
-        "press": "비즈니스포스트",
-        "domain": "businesspost.co.kr",
-        "reason": "EU 배출권거래제의 국제선 항공편 편입과 미국의 반발을 다뤄 항공업계 등 기업에 미치는 통상·규제 영향이 명확함"
+        "title": "에너지경제신문 “물에너지 산업 발전 앞장, 탄소중립 시대 이끈다”",
+        "link": "https://m.ekn.kr/view.php?key=20260724022105823",
+        "date": "2026-07-24",
+        "press": "에너지경제신문",
+        "domain": "m.ekn.kr",
+        "reason": "규칙 기반 자동 선정 (AI 미사용)"
       },
       {
-        "title": "전기차를 ‘움직이는 ESS’로··· 현대차그룹, V2X 서비스 ‘올데이에너지’ 론칭",
-        "link": "https://www.greenpostkorea.co.kr/news/articleView.html?idxno=307135",
-        "date": "2026-07-21",
-        "press": "그린포스트코리아",
-        "domain": "greenpostkorea.co.kr",
-        "reason": "현대차그룹의 V2X 에너지 서비스 글로벌 확대 소식으로 자동차·에너지 기업의 신사업 전략을 보여주며 언론사 다양성도 확보"
+        "title": "“재생에너지 100GW 달성, 교차송전·수열 활성화가 열쇠”",
+        "link": "https://m.ekn.kr/view.php?key=20260724020555791",
+        "date": "2026-07-24",
+        "press": "에너지경제신문",
+        "domain": "m.ekn.kr",
+        "reason": "규칙 기반 자동 선정 (AI 미사용)"
       }
     ],
     "노동/인권(Labor·Human Rights)": [
       {
-        "title": "정부, 홈플러스 회생절차 개시 이후 임금체불 근로자에 410억 생계비 융자",
-        "link": "https://www.mt.co.kr/amp/economy/2026/07/24/2026072416000662440",
+        "title": "'이야기 할머니' 활동비, 18년간 5000원 올라…\"최저임금도 안 돼\"",
+        "link": "https://www.mt.co.kr/society/2026/07/24/2026072413544999835",
         "date": "2026-07-24",
         "press": "머니투데이",
         "domain": "mt.co.kr",
-        "reason": "홈플러스 회생절차發 임금체불 사태로 기업 재무·노무 리스크를 보여주는 최신 기사"
+        "reason": "규칙 기반 자동 선정 (AI 미사용)"
       },
       {
-        "title": "대법원 또 중대재해 무죄, SK 계열사 대표 ‘면죄부’",
-        "link": "https://www.labortoday.co.kr/news/articleView.html?idxno=235785",
+        "title": "경기도-고용노동부, 협업체계 구축…노동안전 사각지대 해소 '기대'",
+        "link": "https://www.mt.co.kr/policy/2026/07/22/2026072215500953143",
         "date": "2026-07-22",
-        "press": "매일노동뉴스",
-        "domain": "labortoday.co.kr",
-        "reason": "중대재해처벌법 대법원 무죄 판결로 기업의 안전관리 책임 논란을 다룬 매일노동뉴스 기사"
-      },
-      {
-        "title": "②환경·인권 위험 어떻게 찾나…공급망실사 핵심은 ‘부정적 영향’",
-        "link": "https://www.esgeconomy.com/news/articleView.html?idxno=16004",
-        "date": "2026-07-21",
-        "press": "ESG경제",
-        "domain": "esgeconomy.com",
-        "reason": "공급망 인권실사 핵심 이슈를 다뤄 기업 ESG 대응 관점에서 시의적절"
+        "press": "머니투데이",
+        "domain": "mt.co.kr",
+        "reason": "규칙 기반 자동 선정 (AI 미사용)"
       },
       {
         "title": "부실한 근로시간 기록, 시간외수당은 어떻게 청구할까",
@@ -100,33 +92,33 @@
         "date": "2026-07-24",
         "press": "매일노동뉴스",
         "domain": "labortoday.co.kr",
-        "reason": "통상임금 판례 변화에 따른 기업 임금관리 리스크를 다룬 담백한 설명 기사"
+        "reason": "규칙 기반 자동 선정 (AI 미사용)"
+      },
+      {
+        "title": "고용보험, 유치원 방과후강사·교차모집 보험설계사도 적용",
+        "link": "https://www.labortoday.co.kr/news/articleView.html?idxno=235861",
+        "date": "2026-07-23",
+        "press": "매일노동뉴스",
+        "domain": "labortoday.co.kr",
+        "reason": "규칙 기반 자동 선정 (AI 미사용)"
       }
     ],
     "반부패/거버넌스(Anti-Corruption)": [
       {
-        "title": "상장사 지배구조 개선 상법 시행…사외이사→독립이사 변경",
-        "link": "https://www.fnnews.com/news/202607230900103808",
+        "title": "대기업 사외이사→독립이사로…감사위원 선임땐 '3% 룰' 도입",
+        "link": "https://www.fnnews.com/news/202607230900355283",
         "date": "2026-07-23",
         "press": "파이낸셜뉴스",
         "domain": "fnnews.com",
-        "reason": "상법 개정에 따른 사외이사→독립이사 전환 등 상장사 지배구조 개편 핵심 뉴스로 기업 경영에 직접적 영향"
+        "reason": "상장사 지배구조 개편(독립이사·3%룰 도입) 관련 법제 변화로 기업 거버넌스에 직접 영향을 미치는 핵심 이슈"
       },
       {
-        "title": "정의선, 또 주주가치 훼손 논란...이번엔 보스턴다이나믹스 지분 확대",
-        "link": "https://www.esgeconomy.com/news/articleView.html?idxno=16107",
-        "date": "2026-07-21",
-        "press": "ESG경제",
-        "domain": "esgeconomy.com",
-        "reason": "정의선 회장의 개인 지분 인수로 불거진 지배구조·주주가치 훼손 논란을 다룬 ESG경제 보도"
-      },
-      {
-        "title": "금융지주 회장 ‘3연임’ 못 한다…지배구조 개혁안 발표 임박",
-        "link": "https://biz.heraldcorp.com/article/10814514",
-        "date": "2026-07-21",
-        "press": "헤럴드경제",
-        "domain": "biz.heraldcorp.com",
-        "reason": "금융지주 회장 연임 제한 등 지배구조 개혁안 발표를 다뤄 금융권 거버넌스 이슈로 시의성 높음"
+        "title": "상법 개정 후폭풍…기업들 '지분 경쟁' 끝나고 '거버넌스 경쟁' 시작 [fn마켓워치]",
+        "link": "https://www.fnnews.com/news/202607221501452214",
+        "date": "2026-07-22",
+        "press": "파이낸셜뉴스",
+        "domain": "fnnews.com",
+        "reason": "상법 개정에 따른 기업들의 거버넌스 대응 경쟁을 다뤄 실제 기업 대응 관점을 보여줌"
       },
       {
         "title": "공정위, '에듀플렉스' 가맹본부 광고비 부당 전가 제재",
@@ -134,41 +126,49 @@
         "date": "2026-07-22",
         "press": "파이낸셜뉴스",
         "domain": "fnnews.com",
-        "reason": "공정위의 가맹본부 광고비 부당 전가 제재 사례로 기업 준법·윤리경영 관련 규제 이슈"
+        "reason": "공정위의 가맹본부 부당행위 제재로 기업 준법·윤리경영 이슈를 다룸"
+      },
+      {
+        "title": "금융위, 품질 우수 중견 회계법인도 대형 상장사 감사",
+        "link": "https://www.fnnews.com/news/202607231824485567",
+        "date": "2026-07-24",
+        "press": "파이낸셜뉴스",
+        "domain": "fnnews.com",
+        "reason": "금융당국의 감사인 지정 제도 변화로 회계 투명성·감사 거버넌스에 영향을 미치는 사안"
       }
     ],
     "성평등/다양성(Gender·Diversity)": [
+      {
+        "title": "\"남자도 무조건 쉬어라\"…男 육아휴직 70% 찍은 기업 [류은혁의 유통기한]",
+        "link": "https://www.hankyung.com/article/202607245038i",
+        "date": "2026-07-25",
+        "press": "한국경제",
+        "domain": "hankyung.com",
+        "reason": "남성 육아휴직 확대 기업 사례를 다뤄 기업 인사정책 관점에서 유효한 최신 기사"
+      },
+      {
+        "title": "\"여성 관리직 비율 아직 13%\"…로레알, 여성과학자 5인 지원사격",
+        "link": "http://m.yakup.com/news/index.html?mode=view&nid=330152",
+        "date": "2026-07-24",
+        "press": "약업신문",
+        "domain": "m.yakup.com",
+        "reason": "여성 관리직 비율과 기업의 다양성 지원 프로그램을 다룬 최근 기사"
+      },
       {
         "title": "‘아빠 육아휴직’ 강화하지만 돌봄은 여전히 ‘엄마’ 몫…중소기업 다니는 아빠 육휴는 ‘그림의 떡’",
         "link": "https://www.munhwa.com/article/11604769",
         "date": "2026-07-24",
         "press": "문화일보",
         "domain": "munhwa.com",
-        "reason": "아빠 육아휴직 확대에도 돌봄은 여전히 여성 몫이며 중소기업은 사용이 어렵다는 기업 현장의 성평등 이슈를 다룸, 당일 보도"
+        "reason": "중소기업의 남성 육아휴직 현실을 조명해 기업 대응 이슈로 적합"
       },
       {
-        "title": "\"저출산이 금융사 가리나\"… 육아휴직 원금유예 차별받는 부모들",
-        "link": "https://www.mt.co.kr/finance/2026/07/22/2026072214355794425",
-        "date": "2026-07-22",
-        "press": "머니투데이",
-        "domain": "mt.co.kr",
-        "reason": "금융사의 육아휴직자 대출 원금유예 차별이라는 구체적 기업 관행 문제를 다룬 신뢰도 있는 경제매체 기사"
-      },
-      {
-        "title": "사회 > 사회일반 직장인 절반 \"육아휴직 자유롭게 못 써\"…비정규직 여성은 3명 중 2명",
-        "link": "https://www.newsis.com/pdf?id=NISX20260717_0003713305",
-        "date": "2026-07-19",
-        "press": "뉴시스",
-        "domain": "newsis.com",
-        "reason": "정규직·비정규직 여성 간 육아휴직 사용 격차를 통계로 제시, 기업이 대응해야 할 노동 이슈로 신뢰도 높은 매체(뉴시스) 보도"
-      },
-      {
-        "title": "육아휴직 10명 중 4명은 아빠⋯ 세분화되는 육아 소비",
-        "link": "https://www.viva100.com/article/20260723501060",
-        "date": "2026-07-24",
-        "press": "브릿지경제",
-        "domain": "viva100.com",
-        "reason": "아빠 육아휴직 비중 증가에 따른 육아소비 시장 변화를 다룬 경제매체의 최신 기사로 성평등·다양성과 기업 대응 관점이 결합됨"
+        "title": "\"헉! 육아휴직 다녀왔더니...\" 권고사직만 3번… 노동위, 결국 판 뒤엎었다",
+        "link": "https://www.ytn.co.kr/_ln/0103_202607231217313702_",
+        "date": "2026-07-23",
+        "press": "YTN",
+        "domain": "ytn.co.kr",
+        "reason": "육아휴직 후 권고사직 사건과 노동위 판단을 다뤄 기업의 성평등 리스크를 보여주는 사례"
       }
     ],
     "지속가능금융(Sustainable Finance)": [
@@ -178,7 +178,7 @@
         "date": "2026-07-24",
         "press": "임팩트온",
         "domain": "impacton.net",
-        "reason": "로디움그룹의 전환금융 프레임워크(TAF) 출시 소식으로, 기업의 전환금융 투자 평가 방식에 영향을 주는 국제 이니셔티브"
+        "reason": "로디움그룹의 전환금융 평가 프레임워크 출시는 국제 지속가능금융 이니셔티브로 기업 대응에 시사점을 줌"
       },
       {
         "title": "하나금융, 지속가능금융 49.8조 공급…'30년 목표 83% 달성",
@@ -186,57 +186,57 @@
         "date": "2026-07-22",
         "press": "ESG경제",
         "domain": "esgeconomy.com",
-        "reason": "하나금융의 지속가능금융 공급 실적과 목표 달성률을 다뤄 금융권의 지속가능금융 이행 현황을 보여주는 기사"
+        "reason": "하나금융의 지속가능금융 공급 실적과 목표 달성률 분석은 국내 금융권 ESG 전략을 보여주는 기사"
       },
       {
-        "title": "유니퍼, 발전·데이터센터에 50억유로 투자·픽테, 환경솔루션 펀드 2억5300만달러 조성·트랜지션 VC, 인도 에너지전환 펀드 출범",
-        "link": "http://www.impacton.net/news/articleView.html?idxno=19713",
-        "date": "2026-07-24",
+        "title": "포스코 산업전환 계획, 이데미츠·렙솔과 비교해보니…철강 지키고 리튬·에너지 키운다",
+        "link": "http://www.impacton.net/news/articleView.html?idxno=19672",
+        "date": "2026-07-22",
         "press": "임팩트온",
         "domain": "impacton.net",
-        "reason": "유니퍼·픽테·트랜지션VC 등 글로벌 지속가능 투자·펀드 동향을 종합해 기업 자금조달 환경 변화를 조망"
+        "reason": "포스코의 산업전환 계획을 글로벌 기업과 비교 분석해 고탄소 산업의 전환금융 전략을 다룸"
       },
       {
-        "title": "인천도시공사, 지방공기업 최초로 지속가능연계채권 발행",
-        "link": "https://www.yna.co.kr/view/AKR20260724110200065",
+        "title": "인천도시공사, 지방공기업 최초 지속가능연계채권 500억원 발행…공공주택 공급 확대 연계",
+        "link": "https://www.fnnews.com/news/202607241752124765",
         "date": "2026-07-24",
-        "press": "연합뉴스",
-        "domain": "yna.co.kr",
-        "reason": "지방공기업 최초의 지속가능연계채권(SLB) 발행 사례를 신뢰도 높은 연합뉴스가 담백한 제목으로 보도, 여러 매체 중복 보도 중 대표 기사로 선정"
+        "press": "파이낸셜뉴스",
+        "domain": "fnnews.com",
+        "reason": "지방공기업 최초의 지속가능연계채권 발행 사례를 신뢰도 있는 매체(파이낸셜뉴스)가 상세히 보도"
       }
     ],
     "정의로운 전환(Just Transition)": [
+      {
+        "title": "정의선 \"현대차, 車기업 넘어 '피지컬 AI 솔루션 기업'으로 전환…韓산업 도약 이끌 것\"",
+        "link": "https://www.newsis.com/view/NISX20260725_0003723009",
+        "date": "2026-07-25",
+        "press": "뉴시스",
+        "domain": "newsis.com",
+        "reason": "규칙 기반 자동 선정 (AI 미사용)"
+      },
+      {
+        "title": "태백·삼척 도계 석탄산업전환지역, ‘국가 기본소득’ 대상 포함 촉구",
+        "link": "https://www.newsis.com/view/NISX20260723_0003721079",
+        "date": "2026-07-23",
+        "press": "뉴시스",
+        "domain": "newsis.com",
+        "reason": "규칙 기반 자동 선정 (AI 미사용)"
+      },
+      {
+        "title": "하동군-한국남부발전, 에너지 전환·지역 상생 상호협력 협약",
+        "link": "https://www.yna.co.kr/amp/view/AKR20260724142400052",
+        "date": "2026-07-24",
+        "press": "연합뉴스",
+        "domain": "yna.co.kr",
+        "reason": "규칙 기반 자동 선정 (AI 미사용)"
+      },
       {
         "title": "남부발전, 하동 석탄발전 정의로운 전환 추진…1조5000억원 투자에도 고용계획은 공백",
         "link": "http://www.impacton.net/news/articleView.html?idxno=19701",
         "date": "2026-07-24",
         "press": "임팩트온",
         "domain": "impacton.net",
-        "reason": "남부발전의 하동 석탄발전 정의로운 전환에서 대규모 투자에도 고용계획이 비어있다는 기업 대응 이슈를 다룬 핵심 기사"
-      },
-      {
-        "title": "태백·삼척 도계 석탄산업전환지역, ‘국가 기본소득’ 대상 포함 촉구",
-        "link": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20260723_0003721079",
-        "date": "2026-07-23",
-        "press": "뉴시스",
-        "domain": "mobile.newsis.com",
-        "reason": "석탄산업전환지역 노동자·주민이 국가 기본소득 포함을 촉구한 정의로운 전환의 실제 사회적 파급 사례"
-      },
-      {
-        "title": "10년 뒤 AI 대체 인력…전문가 10만7천명 vs 단순노무 2천명",
-        "link": "https://www.newsis.com/view/NISX20260722_0003719152",
-        "date": "2026-07-23",
-        "press": "뉴시스",
-        "domain": "newsis.com",
-        "reason": "AI 자동화로 인한 직군별 고용구조 변화를 구체적 수치로 제시해 기업의 인력전환 대응 필요성을 보여주는 기사"
-      },
-      {
-        "title": "부울경 제조업체 63% 스마트 제조 '걸음마'…AX 전환 시급",
-        "link": "https://www.yna.co.kr/view/AKR20260722026800051",
-        "date": "2026-07-22",
-        "press": "연합뉴스",
-        "domain": "yna.co.kr",
-        "reason": "제조업체의 AI·디지털 전환 지연 현황과 대응 시급성을 짚어 기업 경영 관점의 산업전환 이슈를 다룸"
+        "reason": "규칙 기반 자동 선정 (AI 미사용)"
       }
     ]
   }
