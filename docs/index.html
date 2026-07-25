@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>미디어 모니터링 · 2026-07-25</title>
+<style>
+  :root {
+    --bg:#f5f7f4; --card:#fff; --text:#17201b; --muted:#586258; --faint:#8a938b;
+    --accent:#1e5b48; --accent-soft:#e7efe9; --border:#dce3dd; --brass:#8c7333;
+    --danger:#a23b2d; --danger-soft:#f6e7e3;
+  }
+  @media (prefers-color-scheme:dark){
+    :root{ --bg:#101512; --card:#171e19; --text:#e7eee8; --muted:#9ba79e; --faint:#6c776e;
+      --accent:#74c4a2; --accent-soft:#1a2a22; --border:#25302a; --brass:#cbae77;
+      --danger:#e08a7a; --danger-soft:#2c1c19; }
+  }
+  *{box-sizing:border-box;}
+  body{margin:0; padding:36px 18px 100px; background:var(--bg); color:var(--text);
+    font-family:"Pretendard","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif; line-height:1.55;}
+  .wrap{max-width:900px; margin:0 auto;}
+  h1{font-size:1.6rem; margin:0 0 4px;}
+  .updated{color:var(--muted); font-size:.9rem; margin-bottom:14px;}
+  .howto{background:var(--accent-soft); color:var(--text); border:1px solid var(--border);
+    border-radius:10px; padding:12px 16px; font-size:.86rem; margin-bottom:26px; line-height:1.6;}
+  .howto b{color:var(--accent);}
+  .category{background:var(--card); border:1px solid var(--border); border-radius:12px;
+    padding:18px 20px; margin-bottom:16px;}
+  .category h2{font-size:1.05rem; margin:0 0 8px; color:var(--accent);}
+  ul{list-style:none; margin:0; padding:0;}
+  .article{display:flex; gap:11px; padding:11px 0; border-top:1px solid var(--border); align-items:flex-start;}
+  .article:first-of-type{border-top:none;}
+  .research{flex:none; width:28px; height:28px; border:1px solid var(--border); background:var(--bg);
+    color:var(--muted); border-radius:8px; cursor:pointer; font-size:.95rem; line-height:1;
+    display:flex; align-items:center; justify-content:center; transition:all .12s;}
+  .research:hover{border-color:var(--danger); color:var(--danger);}
+  .article.flagged .research{background:var(--danger); border-color:var(--danger); color:#fff;}
+  .body{flex:1; min-width:0;}
+  .line a{color:var(--text); text-decoration:none; font-weight:600; line-height:1.45;}
+  .line a:hover{color:var(--accent); text-decoration:underline;}
+  .cite{color:var(--muted); font-size:.86rem; font-variant-numeric:tabular-nums; margin-left:4px; white-space:nowrap;}
+  .article.flagged .line a{text-decoration:line-through; color:var(--faint);}
+  .flagbox{margin-top:8px;}
+  .flagbox input{width:100%; font-size:.82rem; border:1px solid var(--danger); border-radius:7px;
+    padding:7px 10px; background:var(--danger-soft); color:var(--text);}
+  .flagbox input::placeholder{color:var(--faint);}
+  .empty{color:var(--faint); font-size:.9rem; padding:8px 0;}
+  .bar{position:fixed; left:0; right:0; bottom:0; background:var(--card);
+    border-top:1px solid var(--border); padding:11px 18px; display:flex; gap:10px;
+    align-items:center; justify-content:center; flex-wrap:wrap;}
+  .bar .status{font-size:.85rem; color:var(--muted); margin-right:auto;}
+  .btn{background:var(--accent); color:#fff; border:none; border-radius:8px;
+    padding:10px 16px; font-size:.88rem; font-weight:600; cursor:pointer;}
+  .btn.ghost{background:transparent; color:var(--accent); border:1px solid var(--accent);}
+  .btn.danger{background:var(--danger);}
+  dialog{border:1px solid var(--border); border-radius:12px; padding:20px; max-width:600px;
+    width:92vw; background:var(--card); color:var(--text);}
+  dialog::backdrop{background:rgba(0,0,0,.45);}
+  dialog h3{margin:0 0 8px; font-size:1.05rem;}
+  dialog p{font-size:.86rem; color:var(--muted); margin:0 0 12px; line-height:1.6;}
+  dialog textarea{width:100%; height:180px; font-family:ui-monospace,Menlo,Consolas,monospace;
+    font-size:.78rem; border:1px solid var(--border); border-radius:8px; padding:10px;
+    background:var(--bg); color:var(--text); resize:vertical;}
+  dialog .row{display:flex; gap:10px; margin-top:12px; justify-content:flex-end;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>📰 미디어 모니터링</h1>
+  <div class="updated">마지막 업데이트: 2026-07-25 (매일 자동 갱신)</div>
+  <div class="howto">
+    기사 왼쪽 <b>↻</b> 버튼을 누르면 그 기사를 <b>다른 기사로 교체</b>합니다. 이때 <b>부적절한 이유</b>를
+    적어두면, 앞으로도 비슷한 기사를 자동으로 걸러냅니다. 다 표시했으면 하단
+    <b>재검색 목록 복사</b> → GitHub Actions에서 실행하세요. <b>리스트 복사</b>는 공유용 텍스트입니다.
+  </div>
+  <section class="category"><h2>ESG 공통</h2><ul><li class="article" data-cat="ESG 공통" data-link="https://www.esgeconomy.com/news/articleView.html?idxno=16128" data-title="더 꼼꼼하고 신중해졌다...기업 ESG 소통 방식에 중대 변화" data-press="ESG경제" data-day="260723"><button class="research" type="button" title="이 기사 교체(재검색)">↻</button><div class="body"><div class="line"><a href="https://www.esgeconomy.com/news/articleView.html?idxno=16128" target="_blank" rel="noopener noreferrer">더 꼼꼼하고 신중해졌다...기업 ESG 소통 방식에 중대 변화</a><span class="cite">(ESG경제, 260723)</span></div></div></li><li class="article" data-cat="ESG 공통" data-link="https://www.esgeconomy.com/news/articleView.html?idxno=16121" data-title="SBTi, 넷제로 인증 준비 6개월 이상 소요...필요 데이터는?" data-press="ESG경제" data-day="260722"><button class="research" type="button" title="이 기사 교체(재검색)">↻</button><div class="body"><div class="line"><a href="https://www.esgeconomy.com/news/articleView.html?idxno=16121" target="_blank" rel="noopener noreferrer">SBTi, 넷제로 인증 준비 6개월 이상 소요...필요 데이터는?</a><span class="cite">(ESG경제, 260722)</span></div></div></li><li class="article" data-cat="ESG 공통" data-link="http://www.impacton.net/news/articleView.html?idxno=19665" data-title="한국표준협회 “ESG 의무 공시, 연결회사 데이터 기준부터 맞춰야”" data-press="임팩트온" data-day="260721"><button class="research" type="button" title="이 기사 교체(재검색)">↻</button><div class="body"><div class="line"><a href="http://www.impacton.net/news/articleView.html?idxno=19665" target="_blank" rel="noopener noreferrer">한국표준협회 “ESG 의무 공시, 연결회사 데이터 기준부터 맞춰야”</a><span class="cite">(임팩트온, 260721)</span></div></div></li><li class="article" data-cat="ESG 공통" data-link="http://www.impacton.net/news/articleView.html?idxno=19662" data-title="미 CSO 15년만에 첫 감소...핵심 흐름은?" data-press="임팩트온" data-day="260721"><button class="research" type="button" title="이 기사 교체(재검색)">↻</button><div class="body"><div class="line"><a href="http://www.impacton.net/news/articleView.html?idxno=19662" target="_blank" rel="noopener noreferrer">미 CSO 15년만에 첫 감소...핵심 흐름은?</a><span class="cite">(임팩트온, 260721)</span></div></div></li></ul></section><section class="category"><h2>환경(Environment)</h2><ul><li class="article" data-cat="환경(Environment)" data-link="http://www.impacton.net/news/articleView.html?idxno=19709" data-title="현대차 이익 21% 감소·GM 16조원 구조조정…전기차 둔화에 갈린 완성차 전략" data-press="임팩트온" data-day="260724"><button class="research" type="button" title="이 기사 교체(재검색)">↻</button><div class="body"><div class="line"><a href="http://www.impacton.net/news/articleView.html?idxno=19709" target="_blank" rel="noopener noreferrer">현대차 이익 21% 감소·GM 16조원 구조조정…전기차 둔화에 갈린 완성차 전략</a><span class="cite">(임팩트온, 260724)</span></div></div></li><li class="article" data-cat="환경(Environment)" data-link="https://www.businesspost.co.kr/BP?command=article_view&amp;num=442866" data-title="탄소중립법 개정안 &#x27;범위형 감축경로&#x27; 국회 상임위 소위 통과, 정부 선택에 산업계 투자부담 갈린다" data-press="비즈니스포스트" data-day="260722"><button class="research" type="button" title="이 기사 교체(재검색)">↻</button><div class="body"><div class="line"><a href="https://www.businesspost.co.kr/BP?command=article_view&amp;num=442866" target="_blank" rel="noopener noreferrer">탄소중립법 개정안 &#x27;범위형 감축경로&#x27; 국회 상임위 소위 통과, 정부 선택에 산업계 투자부담 갈린다</a><span class="cite">(비즈니스포스트, 260722)</span></div></div></li><li class="article" data-cat="환경(Environment)" data-link="https://www.businesspost.co.kr/BP?command=article_view&amp;num=442727" data-title="EU 온실가스 배출권거래제에 국제선 항공편 편입 발표, 미국 &quot;깊은 우려&quot; 표명" data-press="비즈니스포스트" data-day="260721"><button class="research" type="button" title="이 기사 교체(재검색)">↻</button><div class="body"><div class="line"><a href="https://www.businesspost.co.kr/BP?command=article_view&amp;num=442727" target="_blank" rel="noopener noreferrer">EU 온실가스 배출권거래제에 국제선 항공편 편입 발표, 미국 &quot;깊은 우려&quot; 표명</a><span class="cite">(비즈니스포스트, 260721)</span></div></div></li><li class="article" data-cat="환경(Environment)" data-link="https://www.greenpostkorea.co.kr/news/articleView.html?idxno=307135" data-title="전기차를 ‘움직이는 ESS’로··· 현대차그룹, V2X 서비스 ‘올데이에너지’ 론칭" data-press="그린포스트코리아" data-day="260721"><button class="research" type="button" title="이 기사 교체(재검색)">↻</button><div class="body"><div class="line"><a href="https://www.greenpostkorea.co.kr/news/articleView.html?idxno=307135" target="_blank" rel="noopener noreferrer">전기차를 ‘움직이는 ESS’로··· 현대차그룹, V2X 서비스 ‘올데이에너지’ 론칭</a><span class="cite">(그린포스트코리아, 260721)</span></div></div></li></ul></section><section class="category"><h2>노동/인권(Labor·Human Rights)</h2><ul><li class="article" data-cat="노동/인권(Labor·Human Rights)" data-link="https://www.mt.co.kr/amp/economy/2026/07/24/2026072416000662440" data-title="정부, 홈플러스 회생절차 개시 이후 임금체불 근로자에 410억 생계비 융자" data-press="머니투데이" data-day="260724"><button class="research" type="button" title="이 기사 교체(재검색)">↻</button><div class="body"><div class="line"><a href="https://www.mt.co.kr/amp/economy/2026/07/24/2026072416000662440" target="_blank" rel="noopener noreferrer">정부, 홈플러스 회생절차 개시 이후 임금체불 근로자에 410억 생계비 융자</a><span class="cite">(머니투데이, 260724)</span></div></div></li><li class="article" data-cat="노동/인권(Labor·Human Rights)" data-link="https://www.labortoday.co.kr/news/articleView.html?idxno=235785" data-title="대법원 또 중대재해 무죄, SK 계열사 대표 ‘면죄부’" data-press="매일노동뉴스" data-day="260722"><button class="research" type="button" title="이 기사 교체(재검색)">↻</button><div class="body"><div class="line"><a href="https://www.labortoday.co.kr/news/articleView.html?idxno=235785" target="_blank" rel="noopener noreferrer">대법원 또 중대재해 무죄, SK 계열사 대표 ‘면죄부’</a><span class="cite">(매일노동뉴스, 260722)</span></div></div></li><li class="article" data-cat="노동/인권(Labor·Human Rights)" data-link="https://www.esgeconomy.com/news/articleView.html?idxno=16004" data-title="②환경·인권 위험 어떻게 찾나…공급망실사 핵심은 ‘부정적 영향’" data-press="ESG경제" data-day="260721"><button class="research" type="button" title="이 기사 교체(재검색)">↻</button><div class="body"><div class="line"><a href="https://www.esgeconomy.com/news/articleView.html?idxno=16004" target="_blank" rel="noopener noreferrer">②환경·인권 위험 어떻게 찾나…공급망실사 핵심은 ‘부정적 영향’</a><span class="cite">(ESG경제, 260721)</span></div></div></li><li class="article" data-cat="노동/인권(Labor·Human Rights)" data-link="https://www.labortoday.co.kr/news/articleView.html?idxno=235886" data-title="부실한 근로시간 기록, 시간외수당은 어떻게 청구할까" data-press="매일노동뉴스" data-day="260724"><button class="research" type="button" title="이 기사 교체(재검색)">↻</button><div class="body"><div class="line"><a href="https://www.labortoday.co.kr/news/articleView.html?idxno=235886" target="_blank" rel="noopener noreferrer">부실한 근로시간 기록, 시간외수당은 어떻게 청구할까</a><span class="cite">(매일노동뉴스, 260724)</span></div></div></li></ul></section><section class="category"><h2>반부패/거버넌스(Anti-Corruption)</h2><ul><li class="article" data-cat="반부패/거버넌스(Anti-Corruption)" data-link="https://www.fnnews.com/news/202607230900103808" data-title="상장사 지배구조 개선 상법 시행…사외이사→독립이사 변경" data-press="파이낸셜뉴스" data-day="260723"><button class="research" type="button" title="이 기사 교체(재검색)">↻</button><div class="body"><div class="line"><a href="https://www.fnnews.com/news/202607230900103808" target="_blank" rel="noopener noreferrer">상장사 지배구조 개선 상법 시행…사외이사→독립이사 변경</a><span class="cite">(파이낸셜뉴스, 260723)</span></div></div></li><li class="article" data-cat="반부패/거버넌스(Anti-Corruption)" data-link="https://www.esgeconomy.com/news/articleView.html?idxno=16107" data-title="정의선, 또 주주가치 훼손 논란...이번엔 보스턴다이나믹스 지분 확대" data-press="ESG경제" data-day="260721"><button class="research" type="button" title="이 기사 교체(재검색)">↻</button><div class="body"><div class="line"><a href="https://www.esgeconomy.com/news/articleView.html?idxno=16107" target="_blank" rel="noopener noreferrer">정의선, 또 주주가치 훼손 논란...이번엔 보스턴다이나믹스 지분 확대</a><span class="cite">(ESG경제, 260721)</span></div></div></li><li class="article" data-cat="반부패/거버넌스(Anti-Corruption)" data-link="https://biz.heraldcorp.com/article/10814514" data-title="금융지주 회장 ‘3연임’ 못 한다…지배구조 개혁안 발표 임박" data-press="헤럴드경제" data-day="260721"><button class="research" type="button" title="이 기사 교체(재검색)">↻</button><div class="body"><div class="line"><a href="https://biz.heraldcorp.com/article/10814514" target="_blank" rel="noopener noreferrer">금융지주 회장 ‘3연임’ 못 한다…지배구조 개혁안 발표 임박</a><span class="cite">(헤럴드경제, 260721)</span></div></div></li><li class="article" data-cat="반부패/거버넌스(Anti-Corruption)" data-link="https://www.fnnews.com/news/202607221203397618" data-title="공정위, &#x27;에듀플렉스&#x27; 가맹본부 광고비 부당 전가 제재" data-press="파이낸셜뉴스" data-day="260722"><button class="research" type="button" title="이 기사 교체(재검색)">↻</button><div class="body"><div class="line"><a href="https://www.fnnews.com/news/202607221203397618" target="_blank" rel="noopener noreferrer">공정위, &#x27;에듀플렉스&#x27; 가맹본부 광고비 부당 전가 제재</a><span class="cite">(파이낸셜뉴스, 260722)</span></div></div></li></ul></section><section class="category"><h2>성평등/다양성(Gender·Diversity)</h2><ul><li class="article" data-cat="성평등/다양성(Gender·Diversity)" data-link="https://www.munhwa.com/article/11604769" data-title="‘아빠 육아휴직’ 강화하지만 돌봄은 여전히 ‘엄마’ 몫…중소기업 다니는 아빠 육휴는 ‘그림의 떡’" data-press="문화일보" data-day="260724"><button class="research" type="button" title="이 기사 교체(재검색)">↻</button><div class="body"><div class="line"><a href="https://www.munhwa.com/article/11604769" target="_blank" rel="noopener noreferrer">‘아빠 육아휴직’ 강화하지만 돌봄은 여전히 ‘엄마’ 몫…중소기업 다니는 아빠 육휴는 ‘그림의 떡’</a><span class="cite">(문화일보, 260724)</span></div></div></li><li class="article" data-cat="성평등/다양성(Gender·Diversity)" data-link="https://www.mt.co.kr/finance/2026/07/22/2026072214355794425" data-title="&quot;저출산이 금융사 가리나&quot;… 육아휴직 원금유예 차별받는 부모들" data-press="머니투데이" data-day="260722"><button class="research" type="button" title="이 기사 교체(재검색)">↻</button><div class="body"><div class="line"><a href="https://www.mt.co.kr/finance/2026/07/22/2026072214355794425" target="_blank" rel="noopener noreferrer">&quot;저출산이 금융사 가리나&quot;… 육아휴직 원금유예 차별받는 부모들</a><span class="cite">(머니투데이, 260722)</span></div></div></li><li class="article" data-cat="성평등/다양성(Gender·Diversity)" data-link="https://www.newsis.com/pdf?id=NISX20260717_0003713305" data-title="사회 &gt; 사회일반 직장인 절반 &quot;육아휴직 자유롭게 못 써&quot;…비정규직 여성은 3명 중 2명" data-press="뉴시스" data-day="260719"><button class="research" type="button" title="이 기사 교체(재검색)">↻</button><div class="body"><div class="line"><a href="https://www.newsis.com/pdf?id=NISX20260717_0003713305" target="_blank" rel="noopener noreferrer">사회 &gt; 사회일반 직장인 절반 &quot;육아휴직 자유롭게 못 써&quot;…비정규직 여성은 3명 중 2명</a><span class="cite">(뉴시스, 260719)</span></div></div></li><li class="article" data-cat="성평등/다양성(Gender·Diversity)" data-link="https://www.viva100.com/article/20260723501060" data-title="육아휴직 10명 중 4명은 아빠⋯ 세분화되는 육아 소비" data-press="브릿지경제" data-day="260724"><button class="research" type="button" title="이 기사 교체(재검색)">↻</button><div class="body"><div class="line"><a href="https://www.viva100.com/article/20260723501060" target="_blank" rel="noopener noreferrer">육아휴직 10명 중 4명은 아빠⋯ 세분화되는 육아 소비</a><span class="cite">(브릿지경제, 260724)</span></div></div></li></ul></section><section class="category"><h2>지속가능금융(Sustainable Finance)</h2><ul><li class="article" data-cat="지속가능금융(Sustainable Finance)" data-link="http://www.impacton.net/news/articleView.html?idxno=19710" data-title="전환금융, 투자금 1달러당 탄소감축량으로 평가한다…로디움그룹 TAF 출시" data-press="임팩트온" data-day="260724"><button class="research" type="button" title="이 기사 교체(재검색)">↻</button><div class="body"><div class="line"><a href="http://www.impacton.net/news/articleView.html?idxno=19710" target="_blank" rel="noopener noreferrer">전환금융, 투자금 1달러당 탄소감축량으로 평가한다…로디움그룹 TAF 출시</a><span class="cite">(임팩트온, 260724)</span></div></div></li><li class="article" data-cat="지속가능금융(Sustainable Finance)" data-link="https://www.esgeconomy.com/news/articleView.html?idxno=16116" data-title="하나금융, 지속가능금융 49.8조 공급…&#x27;30년 목표 83% 달성" data-press="ESG경제" data-day="260722"><button class="research" type="button" title="이 기사 교체(재검색)">↻</button><div class="body"><div class="line"><a href="https://www.esgeconomy.com/news/articleView.html?idxno=16116" target="_blank" rel="noopener noreferrer">하나금융, 지속가능금융 49.8조 공급…&#x27;30년 목표 83% 달성</a><span class="cite">(ESG경제, 260722)</span></div></div></li><li class="article" data-cat="지속가능금융(Sustainable Finance)" data-link="http://www.impacton.net/news/articleView.html?idxno=19713" data-title="유니퍼, 발전·데이터센터에 50억유로 투자·픽테, 환경솔루션 펀드 2억5300만달러 조성·트랜지션 VC, 인도 에너지전환 펀드 출범" data-press="임팩트온" data-day="260724"><button class="research" type="button" title="이 기사 교체(재검색)">↻</button><div class="body"><div class="line"><a href="http://www.impacton.net/news/articleView.html?idxno=19713" target="_blank" rel="noopener noreferrer">유니퍼, 발전·데이터센터에 50억유로 투자·픽테, 환경솔루션 펀드 2억5300만달러 조성·트랜지션 VC, 인도 에너지전환 펀드 출범</a><span class="cite">(임팩트온, 260724)</span></div></div></li><li class="article" data-cat="지속가능금융(Sustainable Finance)" data-link="https://www.yna.co.kr/view/AKR20260724110200065" data-title="인천도시공사, 지방공기업 최초로 지속가능연계채권 발행" data-press="연합뉴스" data-day="260724"><button class="research" type="button" title="이 기사 교체(재검색)">↻</button><div class="body"><div class="line"><a href="https://www.yna.co.kr/view/AKR20260724110200065" target="_blank" rel="noopener noreferrer">인천도시공사, 지방공기업 최초로 지속가능연계채권 발행</a><span class="cite">(연합뉴스, 260724)</span></div></div></li></ul></section><section class="category"><h2>정의로운 전환(Just Transition)</h2><ul><li class="article" data-cat="정의로운 전환(Just Transition)" data-link="http://www.impacton.net/news/articleView.html?idxno=19701" data-title="남부발전, 하동 석탄발전 정의로운 전환 추진…1조5000억원 투자에도 고용계획은 공백" data-press="임팩트온" data-day="260724"><button class="research" type="button" title="이 기사 교체(재검색)">↻</button><div class="body"><div class="line"><a href="http://www.impacton.net/news/articleView.html?idxno=19701" target="_blank" rel="noopener noreferrer">남부발전, 하동 석탄발전 정의로운 전환 추진…1조5000억원 투자에도 고용계획은 공백</a><span class="cite">(임팩트온, 260724)</span></div></div></li><li class="article" data-cat="정의로운 전환(Just Transition)" data-link="https://mobile.newsis.com/view_amp.html?ar_id=NISX20260723_0003721079" data-title="태백·삼척 도계 석탄산업전환지역, ‘국가 기본소득’ 대상 포함 촉구" data-press="뉴시스" data-day="260723"><button class="research" type="button" title="이 기사 교체(재검색)">↻</button><div class="body"><div class="line"><a href="https://mobile.newsis.com/view_amp.html?ar_id=NISX20260723_0003721079" target="_blank" rel="noopener noreferrer">태백·삼척 도계 석탄산업전환지역, ‘국가 기본소득’ 대상 포함 촉구</a><span class="cite">(뉴시스, 260723)</span></div></div></li><li class="article" data-cat="정의로운 전환(Just Transition)" data-link="https://www.newsis.com/view/NISX20260722_0003719152" data-title="10년 뒤 AI 대체 인력…전문가 10만7천명 vs 단순노무 2천명" data-press="뉴시스" data-day="260723"><button class="research" type="button" title="이 기사 교체(재검색)">↻</button><div class="body"><div class="line"><a href="https://www.newsis.com/view/NISX20260722_0003719152" target="_blank" rel="noopener noreferrer">10년 뒤 AI 대체 인력…전문가 10만7천명 vs 단순노무 2천명</a><span class="cite">(뉴시스, 260723)</span></div></div></li><li class="article" data-cat="정의로운 전환(Just Transition)" data-link="https://www.yna.co.kr/view/AKR20260722026800051" data-title="부울경 제조업체 63% 스마트 제조 &#x27;걸음마&#x27;…AX 전환 시급" data-press="연합뉴스" data-day="260722"><button class="research" type="button" title="이 기사 교체(재검색)">↻</button><div class="body"><div class="line"><a href="https://www.yna.co.kr/view/AKR20260722026800051" target="_blank" rel="noopener noreferrer">부울경 제조업체 63% 스마트 제조 &#x27;걸음마&#x27;…AX 전환 시급</a><span class="cite">(연합뉴스, 260722)</span></div></div></li></ul></section>
+</div>
+
+<div class="bar">
+  <span class="status" id="status">재검색 표시 0건</span>
+  <button class="btn ghost" id="btnList">리스트 복사</button>
+  <button class="btn danger" id="btnRefine">재검색 목록 복사</button>
+</div>
+
+<dialog id="dlg">
+  <h3 id="dlgTitle"></h3>
+  <p id="dlgHelp"></p>
+  <textarea id="payload" readonly></textarea>
+  <div class="row">
+    <button class="btn ghost" id="close">닫기</button>
+    <button class="btn" id="copy">복사</button>
+  </div>
+</dialog>
+
+<script>
+const TODAY = "2026-07-25";
+const arts = () => Array.from(document.querySelectorAll(".article"));
+const flagged = () => arts().filter(a => a.classList.contains("flagged"));
+function updateStatus(){ document.getElementById("status").textContent = "재검색 표시 " + flagged().length + "건"; }
+
+document.addEventListener("click", e => {
+  const btn = e.target.closest(".research");
+  if (!btn) return;
+  const li = btn.closest(".article");
+  if (li.classList.contains("flagged")) {
+    li.classList.remove("flagged");
+    const fb = li.querySelector(".flagbox"); if (fb) fb.remove();
+  } else {
+    li.classList.add("flagged");
+    const fb = document.createElement("div");
+    fb.className = "flagbox";
+    const inp = document.createElement("input");
+    inp.className = "reason";
+    inp.placeholder = "이 기사가 부적절한 이유 (예: 지자체 행사, 특정기업 홍보) — 비슷한 기사도 앞으로 걸러집니다";
+    fb.appendChild(inp);
+    li.querySelector(".body").appendChild(fb);
+    inp.focus();
+  }
+  updateStatus();
+});
+
+function buildRefine(){
+  const reject = {};
+  flagged().forEach(li => {
+    const cat = li.dataset.cat;
+    const inp = li.querySelector(".reason");
+    (reject[cat] = reject[cat] || []).push({
+      link: li.dataset.link, title: li.dataset.title, reason: (inp ? inp.value : "").trim()
+    });
+  });
+  return JSON.stringify({ date: TODAY, reject }, null, 0);
+}
+function buildList(){
+  const out = [];
+  document.querySelectorAll(".category").forEach(sec => {
+    out.push("[" + sec.querySelector("h2").textContent + "]");
+    sec.querySelectorAll(".article").forEach(li => {
+      out.push(li.dataset.title + " (" + li.dataset.press + ", " + li.dataset.day + ")");
+      out.push(li.dataset.link);
+    });
+    out.push("");
+  });
+  return out.join("\n").trim();
+}
+const dlg = document.getElementById("dlg");
+function openDlg(title, help, body){
+  document.getElementById("dlgTitle").textContent = title;
+  document.getElementById("dlgHelp").textContent = help;
+  document.getElementById("payload").value = body;
+  dlg.showModal();
+}
+document.getElementById("btnRefine").addEventListener("click", () => {
+  if (flagged().length === 0) { alert("먼저 교체할 기사의 ↻ 버튼을 누르고, 가능하면 이유를 적어주세요."); return; }
+  openDlg("재검색 목록", "GitHub → Actions → Daily Media Monitoring → Run workflow 의 refine 입력란에 붙여넣고 실행하세요.", buildRefine());
+});
+document.getElementById("btnList").addEventListener("click", () => {
+  openDlg("리스트 (공유용)", "복사해서 메일·메신저에 붙여넣으세요.", buildList());
+});
+document.getElementById("close").addEventListener("click", () => dlg.close());
+document.getElementById("copy").addEventListener("click", async () => {
+  const ta = document.getElementById("payload"); ta.select();
+  try { await navigator.clipboard.writeText(ta.value); } catch { document.execCommand("copy"); }
+  const b = document.getElementById("copy"); b.textContent = "복사됨 ✓";
+  setTimeout(() => b.textContent = "복사", 1500);
+});
+updateStatus();
+</script>
+</body>
+</html>
