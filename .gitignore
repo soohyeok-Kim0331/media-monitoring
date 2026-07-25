@@ -1,0 +1,11 @@
+# API 키가 든 파일 — 절대 GitHub에 올라가면 안 됩니다.
+# 이 저장소는 공개(public)이므로 올라가는 즉시 전 세계에 노출됩니다.
+.env
+.env.*
+!.env.example
+
+# 파이썬 부산물
+__pycache__/
+*.pyc
+.venv/
+venv/
