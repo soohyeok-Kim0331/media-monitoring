@@ -1,0 +1,43 @@
+name: Daily Media Monitoring
+
+on:
+  schedule:
+    - cron: "0 23 * * *"
+  workflow_dispatch:
+    inputs:
+      refine:
+        description: "재선별 목록 JSON (비워두면 일반 수집). 사이트의 '재검색 목록 복사' 값을 붙여넣으세요."
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  crawl-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run crawler + selector
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          REFINE_PAYLOAD: ${{ github.event.inputs.refine }}
+        run: python crawl_and_select.py
+
+      - name: Commit and push updated site/data
+        run: |
+          git config user.name "media-monitoring-bot"
+          git config user.email "actions@github.com"
+          git add docs/ data/
+          git diff --quiet --cached || git commit -m "chore: media monitoring update $(date +'%Y-%m-%d %H:%M')"
+          git push
