@@ -27,6 +27,7 @@ import urllib.parse
 
 import gnews
 import pressrss
+import config
 from config import (
     CATEGORIES, TITLE_TAG_PATTERN, OPINION_TITLE_PATTERN, EXCLUDE_SOURCES,
     LOCAL_PR_PATTERN, PRESS_DOMAINS, PRESS_RSS, SEARCH_WINDOW, CANDIDATES_PER_KEYWORD,
@@ -36,6 +37,10 @@ from config import (
 
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 ANTHROPIC_MODEL = os.environ.get("ANTHROPIC_MODEL", "claude-sonnet-5")
+
+# 사이트 '재검색 실행' 버튼 설정 (없으면 빈 문자열 → 버튼 숨김). 구버전 config 대비 getattr.
+WORKER_URL = getattr(config, "WORKER_URL", "")
+TRIGGER_SECRET = getattr(config, "TRIGGER_SECRET", "")
 
 # API 키가 없을 때, 로컬에 로그인된 Claude Code CLI로 대신 호출할지 여부.
 # 키 발급 전에 AI 선별 품질을 미리 확인해보는 용도입니다.
@@ -552,6 +557,10 @@ SITE_TEMPLATE = """<!DOCTYPE html>
     font-size:.78rem; border:1px solid var(--border); border-radius:8px; padding:10px;
     background:var(--bg); color:var(--text); resize:vertical;}
   dialog .row{display:flex; gap:10px; margin-top:12px; justify-content:flex-end;}
+  .spinner{width:36px; height:36px; margin:6px auto 2px; border:3px solid var(--border);
+    border-top-color:var(--accent); border-radius:50%; animation:spin 0.9s linear infinite;}
+  @keyframes spin{to{transform:rotate(360deg);}}
+  @media (prefers-reduced-motion:reduce){ .spinner{animation:none;} }
 </style>
 </head>
 <body>
@@ -560,8 +569,9 @@ SITE_TEMPLATE = """<!DOCTYPE html>
   <div class="updated">마지막 업데이트: __TODAY__ (매일 자동 갱신)</div>
   <div class="howto">
     기사 왼쪽 <b>↻</b> 버튼을 누르면 그 기사를 <b>다른 기사로 교체</b>합니다. 이때 <b>부적절한 이유</b>를
-    적어두면, 앞으로도 비슷한 기사를 자동으로 걸러냅니다. 다 표시했으면 하단
-    <b>재검색 목록 복사</b> → GitHub Actions에서 실행하세요. <b>리스트 복사</b>는 공유용 텍스트입니다.
+    적어두면, 앞으로도 비슷한 기사를 자동으로 걸러냅니다.
+    다 표시했으면 하단 <b>재검색 실행</b>을 누르면 됩니다(약 3~4분 뒤 자동 갱신).
+    <b>리스트 복사</b>는 공유용 텍스트입니다.
   </div>
   __CONTENT__
 </div>
@@ -569,7 +579,8 @@ SITE_TEMPLATE = """<!DOCTYPE html>
 <div class="bar">
   <span class="status" id="status">재검색 표시 0건</span>
   <button class="btn ghost" id="btnList">리스트 복사</button>
-  <button class="btn danger" id="btnRefine">재검색 목록 복사</button>
+  <button class="btn ghost" id="btnRefine">재검색 목록 복사</button>
+  <button class="btn danger" id="btnRun" style="display:none">재검색 실행</button>
 </div>
 
 <dialog id="dlg">
@@ -582,8 +593,16 @@ SITE_TEMPLATE = """<!DOCTYPE html>
   </div>
 </dialog>
 
+<dialog id="prog">
+  <h3 id="progTitle">재검색 중…</h3>
+  <div class="spinner"></div>
+  <p id="progMsg" style="text-align:center">새 기사를 찾고 있어요. 약 3~4분 걸리고, 끝나면 이 페이지가 자동으로 갱신됩니다.</p>
+  <div class="row"><button class="btn ghost" id="progClose">닫기</button></div>
+</dialog>
+
 <script>
 const TODAY = "__TODAY__";
+const CONFIG = __CONFIG__;
 const arts = () => Array.from(document.querySelectorAll(".article"));
 const flagged = () => arts().filter(a => a.classList.contains("flagged"));
 function updateStatus(){ document.getElementById("status").textContent = "재검색 표시 " + flagged().length + "건"; }
@@ -653,14 +672,66 @@ document.getElementById("copy").addEventListener("click", async () => {
   const b = document.getElementById("copy"); b.textContent = "복사됨 ✓";
   setTimeout(() => b.textContent = "복사", 1500);
 });
+
+// ---- '재검색 실행' 자동 트리거 (Worker 설정 시에만 표시) ----
+const prog = document.getElementById("prog");
+let pollTimer = null;
+function pollUntilDone(){
+  const start = Date.now();
+  clearInterval(pollTimer);
+  pollTimer = setInterval(async () => {
+    if (Date.now() - start > 6 * 60 * 1000) {   // 6분 타임아웃
+      clearInterval(pollTimer);
+      document.getElementById("progMsg").textContent = "시간이 조금 더 걸리네요. 잠시 후 새로고침(F5) 해보세요.";
+      return;
+    }
+    try {
+      const r = await fetch("status.json?t=" + Date.now(), { cache: "no-store" });
+      const j = await r.json();
+      if (j.generated_at && j.generated_at > CONFIG.genAt) {
+        clearInterval(pollTimer);
+        location.reload();
+      }
+    } catch (e) { /* Pages 반영 지연 중 — 계속 폴링 */ }
+  }, 10000);
+}
+async function triggerRun(){
+  if (flagged().length === 0) { alert("먼저 교체할 기사의 ↻ 버튼을 누르고, 가능하면 이유를 적어주세요."); return; }
+  const payload = buildRefine();
+  document.getElementById("progTitle").textContent = "재검색 중…";
+  document.getElementById("progMsg").textContent = "새 기사를 찾고 있어요. 약 3~4분 걸리고, 끝나면 이 페이지가 자동으로 갱신됩니다.";
+  prog.showModal();
+  try {
+    const res = await fetch(CONFIG.workerUrl, {
+      method: "POST",
+      headers: { "Content-Type": "application/json", "X-Trigger-Secret": CONFIG.secret || "" },
+      body: payload,
+    });
+    if (!res.ok) throw new Error("서버 응답 " + res.status);
+  } catch (e) {
+    prog.close();
+    alert("자동 실행 요청에 실패했어요 (" + e.message + ").\\n대신 '재검색 목록 복사'로 수동 실행하세요.");
+    return;
+  }
+  pollUntilDone();
+}
+document.getElementById("btnRun").addEventListener("click", triggerRun);
+document.getElementById("progClose").addEventListener("click", () => prog.close());
+if (CONFIG.workerUrl) {   // Worker가 설정돼 있으면 자동 버튼을 앞세우고, 복사 버튼은 보조로
+  document.getElementById("btnRun").style.display = "";
+  document.getElementById("btnRefine").classList.remove("danger");
+}
 updateStatus();
 </script>
 </body>
 </html>"""
 
 
-def build_site(today_str, categories_result):
+def build_site(today_str, categories_result, generated_at=0):
     os.makedirs(DOCS_DIR, exist_ok=True)
+    # Pages는 docs/ 만 서빙하므로, 자동 새로고침 감지용 상태 파일을 docs/ 안에 둔다.
+    with open(os.path.join(DOCS_DIR, "status.json"), "w", encoding="utf-8") as f:
+        json.dump({"generated_at": generated_at}, f)
     cat_blocks = []
     for cat_name, articles in categories_result.items():
         cat_esc = html.escape(cat_name)
@@ -690,8 +761,12 @@ def build_site(today_str, categories_result):
             f'<section class="category"><h2>{cat_esc}</h2><ul>{items_html}</ul></section>'
         )
 
+    cfg_js = json.dumps({
+        "workerUrl": WORKER_URL, "secret": TRIGGER_SECRET, "genAt": generated_at,
+    })
     html_out = (SITE_TEMPLATE
                 .replace("__TODAY__", html.escape(today_str))
+                .replace("__CONFIG__", cfg_js)
                 .replace("__CONTENT__", "".join(cat_blocks)))
     with open(os.path.join(DOCS_DIR, "index.html"), "w", encoding="utf-8") as f:
         f.write(html_out)
@@ -717,9 +792,11 @@ def save_result(today, categories_result):
     history = [h for h in history if datetime.date.fromisoformat(h["date"]) >= cutoff]
     with open(HISTORY_PATH, "w", encoding="utf-8") as f:
         json.dump(history, f, ensure_ascii=False, indent=2)
+    generated_at = int(time.time())  # 자동 새로고침 감지용 (실행할 때마다 증가)
     with open(LATEST_PATH, "w", encoding="utf-8") as f:
-        json.dump({"date": today, "categories": categories_result}, f, ensure_ascii=False, indent=2)
-    build_site(today, categories_result)
+        json.dump({"date": today, "generated_at": generated_at,
+                   "categories": categories_result}, f, ensure_ascii=False, indent=2)
+    build_site(today, categories_result, generated_at)
 
 
 def main():
