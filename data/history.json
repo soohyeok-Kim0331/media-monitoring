@@ -727,5 +727,248 @@
         }
       ]
     }
+  },
+  {
+    "date": "2026-07-28",
+    "categories": {
+      "ESG 공통": [
+        {
+          "title": "ESG경제·네스트, ‘KSSB 법정공시 전환’ 세미나",
+          "link": "https://www.esgeconomy.com/news/articleView.html?idxno=16185",
+          "date": "2026-07-28",
+          "press": "ESG경제",
+          "domain": "esgeconomy.com",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "EFRAG, 비EU기업 ESG 공시 초안 공개…기후는 글로벌, 인권·환경은 EU 영향만",
+          "link": "http://www.impacton.net/news/articleView.html?idxno=19748",
+          "date": "2026-07-28",
+          "press": "임팩트온",
+          "domain": "impacton.net",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "다쏘시스템, 2027 감축목표 조기 달성…2050 넷제로 SBTi 검증",
+          "link": "http://www.impacton.net/news/articleView.html?idxno=19743",
+          "date": "2026-07-28",
+          "press": "임팩트온",
+          "domain": "impacton.net",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "EU, 역외 기업에 임팩트 중심 공시 요구...재무 위험 공시는?",
+          "link": "https://www.esgeconomy.com/news/articleView.html?idxno=16179",
+          "date": "2026-07-28",
+          "press": "ESG경제",
+          "domain": "esgeconomy.com",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        }
+      ],
+      "환경(Environment)": [
+        {
+          "title": "성균관대, 전기차 주행거리 크게 늘릴 고용량 배터리 신소재 개발",
+          "link": "https://m.ekn.kr/view.php?key=20260728029276464",
+          "date": "2026-07-28",
+          "press": "에너지경제신문",
+          "domain": "m.ekn.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "한전, 반월변전소 유휴부지를 태양광 발전소로 활용하기로",
+          "link": "https://www.businesspost.co.kr/BP?command=article_view&num=443361",
+          "date": "2026-07-28",
+          "press": "비즈니스포스트",
+          "domain": "businesspost.co.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "전기차를 ‘움직이는 ESS’로··· 현대차그룹, V2X 서비스 ‘올데이에너지’ 론칭",
+          "link": "https://www.greenpostkorea.co.kr/news/articleView.html?idxno=307135",
+          "date": "2026-07-21",
+          "press": "그린포스트코리아",
+          "domain": "greenpostkorea.co.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "DHL, 중국 태양광기업 롱기와 왜 손잡았나",
+          "link": "http://www.impacton.net/news/articleView.html?idxno=19752",
+          "date": "2026-07-28",
+          "press": "임팩트온",
+          "domain": "impacton.net",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        }
+      ],
+      "노동/인권(Labor·Human Rights)": [
+        {
+          "title": "고용노동부",
+          "link": "https://www.labortoday.co.kr/news/articleView.html?idxno=235948",
+          "date": "2026-07-29",
+          "press": "매일노동뉴스",
+          "domain": "labortoday.co.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "노동부, 폭염·질식 취약사업장 1천곳 집중점검",
+          "link": "https://www.labortoday.co.kr/news/articleView.html?idxno=235938",
+          "date": "2026-07-29",
+          "press": "매일노동뉴스",
+          "domain": "labortoday.co.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "HL만도서 기계 끼임 사망사고…중대재해처벌법 적용 가능성은",
+          "link": "https://www.kukinews.com/article/view/kuk202607280150",
+          "date": "2026-07-28",
+          "press": "쿠키뉴스",
+          "domain": "kukinews.com",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "COSCO, 9월 亞→美·加항로 GRI 단행",
+          "link": "http://www.cargonews.co.kr/news/articleView.html?idxno=60615",
+          "date": "2026-07-28",
+          "press": "카고뉴스",
+          "domain": "cargonews.co.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        }
+      ],
+      "반부패/거버넌스(Anti-Corruption)": [
+        {
+          "title": "KISA, 인터넷 거버넌스 인재양성 10년 청사진 다시 그린다",
+          "link": "https://www.fnnews.com/news/202607271100353700",
+          "date": "2026-07-27",
+          "press": "파이낸셜뉴스",
+          "domain": "fnnews.com",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "KISA, 인터넷 거버넌스 인재 양성 새판 짠다…'아피가' TF 출범",
+          "link": "https://www.fnnews.com/news/202607270950498513",
+          "date": "2026-07-27",
+          "press": "파이낸셜뉴스",
+          "domain": "fnnews.com",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "ESG경제·네스트, ‘KSSB 법정공시 전환’ 세미나",
+          "link": "https://www.esgeconomy.com/news/articleView.html?idxno=16185",
+          "date": "2026-07-28",
+          "press": "ESG경제",
+          "domain": "esgeconomy.com",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "법무법인 광장 ‘기업법 연구센터’ 가동…기업 자문 전문성 강화",
+          "link": "https://biz.heraldcorp.com/article/10823096",
+          "date": "2026-07-28",
+          "press": "헤럴드경제",
+          "domain": "biz.heraldcorp.com",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        }
+      ],
+      "성평등/다양성(Gender·Diversity)": [
+        {
+          "title": "‘2026 필름X젠더’ 수상자, 양주연·최은수 감독... 일상 성평등 주목",
+          "link": "https://www.womennews.co.kr/news/articleView.html?idxno=280438",
+          "date": "2026-07-28",
+          "press": "여성신문",
+          "domain": "womennews.co.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "성평등부·KISA, 불법촬영물·성매매 광고 근절 위해 ‘맞손’",
+          "link": "https://www.womennews.co.kr/news/articleView.html?idxno=280400",
+          "date": "2026-07-28",
+          "press": "여성신문",
+          "domain": "womennews.co.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "국힘 김정재, 성평등가족위원장 후보 등록…30일 본회의서 선출",
+          "link": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20260728_0003727003",
+          "date": "2026-07-28",
+          "press": "뉴시스",
+          "domain": "mobile.newsis.com",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "성평등부·기획처, '이동형 성교육' 참관…\"올바른 인식 중요\"",
+          "link": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20260728_0003726303",
+          "date": "2026-07-28",
+          "press": "뉴시스",
+          "domain": "mobile.newsis.com",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        }
+      ],
+      "지속가능금융(Sustainable Finance)": [
+        {
+          "title": "부산 시민단체 \"BNK·JB 금융 합병 시도 즉각 중단하라\"",
+          "link": "https://www.yna.co.kr/amp/view/AKR20260728043700051",
+          "date": "2026-07-28",
+          "press": "연합뉴스",
+          "domain": "yna.co.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "삼성액티브운용, KoAct 고배당액티브 신규 상장",
+          "link": "https://www.yna.co.kr/view/AKR20260728045800008?section=economy/all",
+          "date": "2026-07-28",
+          "press": "연합뉴스",
+          "domain": "yna.co.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "우주청, 열가소성 항공기 부품 핵심기술개발 착수",
+          "link": "https://www.fnnews.com/news/202607281242414648",
+          "date": "2026-07-28",
+          "press": "파이낸셜뉴스",
+          "domain": "fnnews.com",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "LX하우시스 창호 등 '올해의 녹색상품' 선정",
+          "link": "https://www.fnnews.com/news/202607281817109501",
+          "date": "2026-07-28",
+          "press": "파이낸셜뉴스",
+          "domain": "fnnews.com",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        }
+      ],
+      "정의로운 전환(Just Transition)": [
+        {
+          "title": "박홍근 \"AI 전환·K자형 양극화에도 노동가치 존중돼야\"",
+          "link": "https://www.newsis.com/view/NISX20260728_0003726293",
+          "date": "2026-07-28",
+          "press": "뉴시스",
+          "domain": "newsis.com",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "부산 전문가들 \"민선 9기 최우선 과제는 일자리·AI·산업전환\"",
+          "link": "https://www.yna.co.kr/view/AKR20260728059700051",
+          "date": "2026-07-28",
+          "press": "연합뉴스",
+          "domain": "yna.co.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "\"미래 제조혁신, AI 기반 산업전환\"…경북도·포항시 포럼",
+          "link": "https://www.newsis.com/view/NISX20260722_0003719072",
+          "date": "2026-07-22",
+          "press": "뉴시스",
+          "domain": "newsis.com",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "공공 CCTV 1만8천여대 AI 전환한다",
+          "link": "https://www.yna.co.kr/view/AKR20260728049500017",
+          "date": "2026-07-28",
+          "press": "연합뉴스",
+          "domain": "yna.co.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        }
+      ]
+    }
   }
 ]
