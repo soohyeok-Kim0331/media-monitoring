@@ -484,5 +484,248 @@
         }
       ]
     }
+  },
+  {
+    "date": "2026-07-27",
+    "categories": {
+      "ESG 공통": [
+        {
+          "title": "우리금융, ‘ESG 금융’ 누적 67조원…사업장 배출 줄고 금융배출 늘어",
+          "link": "https://www.esgeconomy.com/news/articleView.html?idxno=16174",
+          "date": "2026-07-27",
+          "press": "ESG경제",
+          "domain": "esgeconomy.com",
+          "reason": "우리금융의 ESG 금융 확대 실적과 금융배출 증가라는 상충 이슈를 다뤄 기업 경영 영향력이 큼"
+        },
+        {
+          "title": "하이브, 사업장 탄소 14% 줄였지만 공급망 배출 64%↑",
+          "link": "https://www.esgeconomy.com/news/articleView.html?idxno=16173",
+          "date": "2026-07-27",
+          "press": "ESG경제",
+          "domain": "esgeconomy.com",
+          "reason": "하이브의 사업장 배출 감소와 공급망 배출 급증 사례로 스코프3 관리 필요성을 보여줌"
+        },
+        {
+          "title": "S&P500 기업 84% 기후목표 공시했지만…58%는 배출 감축 실패",
+          "link": "http://www.impacton.net/news/articleView.html?idxno=19727",
+          "date": "2026-07-27",
+          "press": "임팩트온",
+          "domain": "impacton.net",
+          "reason": "S&P500 기업들의 기후목표 공시와 실제 감축 성과 간 괴리를 지적한 국제 동향 기사"
+        },
+        {
+          "title": "EU 스테인리스 수입 31% 급감…CBAM·쿼터에 한국 철강 수출도 압박",
+          "link": "https://www.impacton.net/news/articleView.html?idxno=19739",
+          "date": "2026-07-27",
+          "press": "임팩트온",
+          "domain": "impacton.net",
+          "reason": "EU CBAM 강화로 한국 철강 수출이 받는 실질적 압박을 다뤄 기업 대응 필요성이 큼"
+        }
+      ],
+      "환경(Environment)": [
+        {
+          "title": "테슬라, 2040년 탄소중립 선언…배출 늘었는데 2030년 감축목표는 없다",
+          "link": "http://www.impacton.net/news/articleView.html?idxno=19703",
+          "date": "2026-07-24",
+          "press": "임팩트온",
+          "domain": "impacton.net",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "양수부터 조력·수열까지… 물에너지, 탄소중립·RE100 솔루션으로 떠올라",
+          "link": "https://m.ekn.kr/view.php?key=20260724027435498",
+          "date": "2026-07-24",
+          "press": "에너지경제신문",
+          "domain": "m.ekn.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "“재생에너지 100GW 달성, 교차송전·수열 활성화가 열쇠”",
+          "link": "https://m.ekn.kr/view.php?key=20260724020555791",
+          "date": "2026-07-24",
+          "press": "에너지경제신문",
+          "domain": "m.ekn.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "최저가 입찰 시대 끝났다... EU, 청정기술 조달에 '지속가능성·회복력' 의무화",
+          "link": "http://www.impacton.net/news/articleView.html?idxno=19731",
+          "date": "2026-07-27",
+          "press": "임팩트온",
+          "domain": "impacton.net",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        }
+      ],
+      "노동/인권(Labor·Human Rights)": [
+        {
+          "title": "“도급제 최저임금 적용해야” 민주노총 이의제기",
+          "link": "https://www.labortoday.co.kr/news/articleView.html?idxno=235921",
+          "date": "2026-07-28",
+          "press": "매일노동뉴스",
+          "domain": "labortoday.co.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "‘원청 책임 확대’ 중대재해처벌법안 상정",
+          "link": "https://www.labortoday.co.kr/news/articleView.html?idxno=235911",
+          "date": "2026-07-28",
+          "press": "매일노동뉴스",
+          "domain": "labortoday.co.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "\"특고 위한 최저임금 도급제 적용해야 \"…민주노총, 노동부에 이의제기",
+          "link": "https://www.mt.co.kr/society/2026/07/27/2026072713430112989",
+          "date": "2026-07-27",
+          "press": "머니투데이",
+          "domain": "mt.co.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "소상공인聯, 최저임금 1만700원안에 재심의 촉구… 민노총도",
+          "link": "https://www.chosun.com/economy/smb-venture/2026/07/28/BBK6ICGAMVFM5FK537ESEQLPUQ/",
+          "date": "2026-07-28",
+          "press": "조선일보",
+          "domain": "chosun.com",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        }
+      ],
+      "반부패/거버넌스(Anti-Corruption)": [
+        {
+          "title": "하나금융, '밸류업 2.0'으로 기업가치 제고 가속…\"주주환원 기대↑\"",
+          "link": "https://www.esgeconomy.com/news/articleView.html?idxno=16165",
+          "date": "2026-07-27",
+          "press": "ESG경제",
+          "domain": "esgeconomy.com",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "KB금융, 유니콘 기업 발굴·육성…1500억 규모 스케일업 펀드 결성",
+          "link": "https://biz.heraldcorp.com/article/10821357",
+          "date": "2026-07-27",
+          "press": "헤럴드경제",
+          "domain": "biz.heraldcorp.com",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "농식품부, '모두의 상생' 출범…기업·농가 협력 플랫폼 구축",
+          "link": "https://www.fnnews.com/news/202607271700023585",
+          "date": "2026-07-27",
+          "press": "파이낸셜뉴스",
+          "domain": "fnnews.com",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "농식품부, '모두의 상생' 출범…기업·농가, K-푸드 키운다",
+          "link": "https://www.fnnews.com/news/202607271700321045",
+          "date": "2026-07-27",
+          "press": "파이낸셜뉴스",
+          "domain": "fnnews.com",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        }
+      ],
+      "성평등/다양성(Gender·Diversity)": [
+        {
+          "title": "인사말하는 원민경 성평등가족부 장관",
+          "link": "https://www.newsis.com/view/NISI20260727_0021378990",
+          "date": "2026-07-27",
+          "press": "뉴시스",
+          "domain": "newsis.com",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "불법촬영물 선제 대응…성평등부·한국인터넷진흥원 맞손",
+          "link": "https://www.newsis.com/view/NISX20260727_0003724099",
+          "date": "2026-07-27",
+          "press": "뉴시스",
+          "domain": "newsis.com",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "양평군, 경력단절여성 사회복지 실무교육…2명 조기 취업 '쾌커'",
+          "link": "https://www.kyeonggi.com/article/20260727580220",
+          "date": "2026-07-27",
+          "press": "경기일보",
+          "domain": "kyeonggi.com",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "제주 경력단절여성 창업기업‧청년 협업 성과 ‘톡톡’",
+          "link": "https://www.jejumaeil.net/news/articleView.html?idxno=403092",
+          "date": "2026-07-27",
+          "press": "제주매일",
+          "domain": "jejumaeil.net",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        }
+      ],
+      "지속가능금융(Sustainable Finance)": [
+        {
+          "title": "전환금융, 투자금 1달러당 탄소감축량으로 평가한다…로디움그룹 TAF 출시",
+          "link": "http://www.impacton.net/news/articleView.html?idxno=19710",
+          "date": "2026-07-24",
+          "press": "임팩트온",
+          "domain": "impacton.net",
+          "reason": "전환금융 평가 프레임워크 신규 출시로 국제 지속가능금융 트렌드를 다룸"
+        },
+        {
+          "title": "하나금융, 지속가능금융 49.8조 공급…'30년 목표 83% 달성",
+          "link": "https://www.esgeconomy.com/news/articleView.html?idxno=16116",
+          "date": "2026-07-22",
+          "press": "ESG경제",
+          "domain": "esgeconomy.com",
+          "reason": "하나금융의 지속가능금융 공급 실적과 목표 달성률을 구체적으로 분석"
+        },
+        {
+          "title": "우리금융, ‘ESG 금융’ 누적 67조원…사업장 배출 줄고 금융배출 늘어",
+          "link": "https://www.esgeconomy.com/news/articleView.html?idxno=16174",
+          "date": "2026-07-27",
+          "press": "ESG경제",
+          "domain": "esgeconomy.com",
+          "reason": "우리금융의 ESG 금융 누적 실적과 금융배출량 이슈를 다뤄 기업 대응 관점에서 유효"
+        },
+        {
+          "title": "CBAM 비용도 환율처럼 고정한다…가란티BBVA, 탄소가격 헤지 파생상품 출시",
+          "link": "http://www.impacton.net/news/articleView.html?idxno=19733",
+          "date": "2026-07-27",
+          "press": "임팩트온",
+          "domain": "impacton.net",
+          "reason": "CBAM 탄소비용 헤지 파생상품 출시로 수출기업의 실질적 대응 이슈를 조명"
+        }
+      ],
+      "정의로운 전환(Just Transition)": [
+        {
+          "title": "부산 미래산업 전환펀드 2호 출범…\"2500억 자펀드 조성\"",
+          "link": "https://www.newsis.com/view/NISX20260727_0003724124",
+          "date": "2026-07-27",
+          "press": "뉴시스",
+          "domain": "newsis.com",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "원주미래산업진흥원, 미래차 인공지능 전환 전문인력 육성",
+          "link": "https://www.newsis.com/view/NISX20260727_0003725069",
+          "date": "2026-07-27",
+          "press": "뉴시스",
+          "domain": "newsis.com",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "울산시, 노동·감사위 신설 제외한 조직개편안 마련",
+          "link": "https://www.yna.co.kr/view/AKR20260727146400057",
+          "date": "2026-07-27",
+          "press": "연합뉴스",
+          "domain": "yna.co.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "금속노조, 한국타이어에 사내 하청 노동자 직접 고용 요구",
+          "link": "https://www.yna.co.kr/amp/view/AKR20260727122700061",
+          "date": "2026-07-27",
+          "press": "연합뉴스",
+          "domain": "yna.co.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        }
+      ]
+    }
   }
 ]
