@@ -1,16 +1,8 @@
 {
-  "date": "2026-07-29",
-  "generated_at": 1785369548,
+  "date": "2026-07-30",
+  "generated_at": 1785402934,
   "categories": {
     "ESG 공통": [
-      {
-        "title": "싱가포르, ESG 공시기준 초안 공개...스코프1·2 먼저",
-        "link": "https://www.esgeconomy.com/news/articleView.html?idxno=16196",
-        "date": "2026-07-29",
-        "press": "ESG경제",
-        "domain": "esgeconomy.com",
-        "reason": "규칙 기반 자동 선정 (AI 미사용)"
-      },
       {
         "title": "\"단일종목 레버리지 ETF는 지속가능한 투자 가로막는 괴물\"",
         "link": "https://www.esgeconomy.com/news/articleView.html?idxno=16197",
@@ -20,19 +12,27 @@
         "reason": "규칙 기반 자동 선정 (AI 미사용)"
       },
       {
-        "title": "억대 외주 없앤 AI…ESG 담당자 야근은 그대로?",
-        "link": "http://www.impacton.net/news/articleView.html?idxno=19699",
-        "date": "2026-07-27",
-        "press": "임팩트온",
-        "domain": "impacton.net",
-        "reason": "규칙 기반 자동 선정 (AI 미사용)"
-      },
-      {
         "title": "이베르드롤라, EIB 풍력금융 조달·마스다르, 재생에너지 2GW 개발·펜테어, 타코그룹 인수",
         "link": "http://www.impacton.net/news/articleView.html?idxno=19757",
         "date": "2026-07-29",
         "press": "임팩트온",
         "domain": "impacton.net",
+        "reason": "규칙 기반 자동 선정 (AI 미사용)"
+      },
+      {
+        "title": "ICGN, 한국 ESG공시 로드맵 환영…“다른 시장에 모범사례로 소개”",
+        "link": "https://www.esgeconomy.com/news/articleView.html?idxno=16208",
+        "date": "2026-07-30",
+        "press": "ESG경제",
+        "domain": "esgeconomy.com",
+        "reason": "규칙 기반 자동 선정 (AI 미사용)"
+      },
+      {
+        "title": "삼성전자·SK하이닉스 기후공시 비교…위험 분석·스코프3 범위서 차이",
+        "link": "https://www.esgeconomy.com/news/articleView.html?idxno=16214",
+        "date": "2026-07-30",
+        "press": "ESG경제",
+        "domain": "esgeconomy.com",
         "reason": "규칙 기반 자동 선정 (AI 미사용)"
       }
     ],
