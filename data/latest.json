@@ -1,36 +1,36 @@
 {
-  "date": "2026-08-12",
-  "generated_at": 1786577789,
+  "date": "2026-08-13",
+  "generated_at": 1786664228,
   "categories": {
     "ESG 공통": [
       {
-        "title": "지속가능성 공시 인증인 '자기자본 10억원 요건' 논란",
-        "link": "https://www.esgeconomy.com/news/articleView.html?idxno=16379",
-        "date": "2026-08-12",
+        "title": "한진, 공정위 규제 리스크 비상...대한항공 4가지 ‘미결과제’ 솔루션은",
+        "link": "https://www.esgeconomy.com/news/articleView.html?idxno=16393",
+        "date": "2026-08-13",
         "press": "ESG경제",
         "domain": "esgeconomy.com",
         "reason": "규칙 기반 자동 선정 (AI 미사용)"
       },
       {
-        "title": "ESG 주식 높은 수익률, 기업 실적보다 ‘자금 유입’ 효과",
-        "link": "https://www.esgeconomy.com/news/articleView.html?idxno=16369",
-        "date": "2026-08-12",
+        "title": "한화시스템, 주주환원 목표 143% 달성…ESG에 밸류업 더했다",
+        "link": "https://www.esgeconomy.com/news/articleView.html?idxno=16392",
+        "date": "2026-08-13",
         "press": "ESG경제",
         "domain": "esgeconomy.com",
         "reason": "규칙 기반 자동 선정 (AI 미사용)"
       },
       {
-        "title": "EU, 주주권지침 개정 추진…ESG 주주제안 배제 기준 손본다",
-        "link": "http://www.impacton.net/news/articleView.html?idxno=19937",
-        "date": "2026-08-12",
+        "title": "8월 3주차 국내 ESG 핫클립",
+        "link": "http://www.impacton.net/news/articleView.html?idxno=19963",
+        "date": "2026-08-13",
         "press": "임팩트온",
         "domain": "impacton.net",
         "reason": "규칙 기반 자동 선정 (AI 미사용)"
       },
       {
-        "title": "미국은 '그린허싱' vs. 유럽은 녹색채권 342조원 사상 최대",
-        "link": "http://www.impacton.net/news/articleView.html?idxno=19945",
-        "date": "2026-08-12",
+        "title": "8월 3주차 해외 ESG 핫클립",
+        "link": "http://www.impacton.net/news/articleView.html?idxno=19962",
+        "date": "2026-08-13",
         "press": "임팩트온",
         "domain": "impacton.net",
         "reason": "규칙 기반 자동 선정 (AI 미사용)"
@@ -38,134 +38,134 @@
     ],
     "환경(Environment)": [
       {
-        "title": "재생에너지 이격거리 상한·美 폴리실리콘 관세 대응",
-        "link": "http://www.impacton.net/news/articleView.html?idxno=19935",
-        "date": "2026-08-12",
+        "title": "노보홀딩스, 미국 재생에너지 투자 재개…AI 전력수요에 자산 매력 부각",
+        "link": "http://www.impacton.net/news/articleView.html?idxno=19961",
+        "date": "2026-08-13",
         "press": "임팩트온",
         "domain": "impacton.net",
         "reason": "규칙 기반 자동 선정 (AI 미사용)"
       },
       {
-        "title": "GM 전기차와 ESS 전략 재편 향방 주목, LG에너지솔루션 역할 커지고 삼성SDI는 축소 가닥",
-        "link": "https://www.businesspost.co.kr/BP?command=article_view&num=444571",
-        "date": "2026-08-12",
+        "title": "기후특위, ‘2045 NDC’ 담은 탄소중립법 개정안 의결…조국당·환경단체 반발",
+        "link": "https://m.ekn.kr/view.php?key=20260813023582480",
+        "date": "2026-08-13",
+        "press": "에너지경제신문",
+        "domain": "m.ekn.kr",
+        "reason": "규칙 기반 자동 선정 (AI 미사용)"
+      },
+      {
+        "title": "상장 준비하는 오픈AI와 엔트로픽 온실가스 배출에는 침묵, 탄소중립 목표도 제시하지 않아",
+        "link": "https://www.businesspost.co.kr/BP?command=article_view&num=444649",
+        "date": "2026-08-13",
         "press": "비즈니스포스트",
         "domain": "businesspost.co.kr",
         "reason": "규칙 기반 자동 선정 (AI 미사용)"
       },
       {
-        "title": "MP머티리얼즈부터 실라까지… 미 정부가 찍은 핵심광물 25곳은?",
-        "link": "http://www.impacton.net/news/articleView.html?idxno=19951",
-        "date": "2026-08-12",
-        "press": "임팩트온",
-        "domain": "impacton.net",
-        "reason": "규칙 기반 자동 선정 (AI 미사용)"
-      },
-      {
-        "title": "HD현대오일뱅크, 수소엔진 오일로 새 활로 찾는다",
-        "link": "https://www.greenpostkorea.co.kr/news/articleView.html?idxno=307267",
-        "date": "2026-08-12",
-        "press": "그린포스트코리아",
-        "domain": "greenpostkorea.co.kr",
+        "title": "“시동 안 켰어?”…제네시스, 전기차 안 부러운 ‘GV80 하이브리드’ 공개",
+        "link": "https://m.ekn.kr/view.php?key=20260813021242411",
+        "date": "2026-08-13",
+        "press": "에너지경제신문",
+        "domain": "m.ekn.kr",
         "reason": "규칙 기반 자동 선정 (AI 미사용)"
       }
     ],
     "노동/인권(Labor·Human Rights)": [
       {
-        "title": "인천대, 고용노동부 일학습병행 성과평가 최고 'S등급' 획득",
-        "link": "https://www.mt.co.kr/policy/2026/08/12/2026081218342461184",
-        "date": "2026-08-12",
-        "press": "머니투데이",
-        "domain": "mt.co.kr",
-        "reason": "규칙 기반 자동 선정 (AI 미사용)"
-      },
-      {
-        "title": "\"광복절 코 앞인데\"…찢어진 태극기 게양한 고용노동부 포항지청",
-        "link": "https://www.mt.co.kr/society/2026/08/12/2026081209391524711",
-        "date": "2026-08-12",
-        "press": "머니투데이",
-        "domain": "mt.co.kr",
-        "reason": "규칙 기반 자동 선정 (AI 미사용)"
-      },
-      {
-        "title": "산재예방에 기업 노력의 중요성",
-        "link": "https://www.labortoday.co.kr/news/articleView.html?idxno=236213",
-        "date": "2026-08-13",
+        "title": "호주 배달노동자 최저임금 받는다",
+        "link": "https://www.labortoday.co.kr/news/articleView.html?idxno=236242",
+        "date": "2026-08-14",
         "press": "매일노동뉴스",
         "domain": "labortoday.co.kr",
         "reason": "규칙 기반 자동 선정 (AI 미사용)"
       },
       {
-        "title": "염전·양식장 안전보건 관리 ‘엉망’",
-        "link": "https://www.labortoday.co.kr/news/articleView.html?idxno=236211",
+        "title": "ILO 인증 학위 받는다...한기대, '디지털 직업교육 석사과정' 신입생 모집",
+        "link": "https://www.mt.co.kr/policy/2026/08/13/2026081311491429145",
         "date": "2026-08-13",
+        "press": "머니투데이",
+        "domain": "mt.co.kr",
+        "reason": "규칙 기반 자동 선정 (AI 미사용)"
+      },
+      {
+        "title": "“정부·지자체 사용자 부인한 노동부 해석지침 개정해야”",
+        "link": "https://www.labortoday.co.kr/news/articleView.html?idxno=236249",
+        "date": "2026-08-14",
         "press": "매일노동뉴스",
         "domain": "labortoday.co.kr",
+        "reason": "규칙 기반 자동 선정 (AI 미사용)"
+      },
+      {
+        "title": "중대재해처벌법 시행 4년, 이제 ‘실효성’을 점검할 때다",
+        "link": "https://www.anjunj.com/news/articleView.html?idxno=50395",
+        "date": "2026-08-13",
+        "press": "안전저널",
+        "domain": "anjunj.com",
         "reason": "규칙 기반 자동 선정 (AI 미사용)"
       }
     ],
     "반부패/거버넌스(Anti-Corruption)": [
       {
-        "title": "개인은 사흘 만에 옮겼는데…기업은? [크립토 인사이트]",
-        "link": "https://biz.heraldcorp.com/article/10838923",
+        "title": "민생금융범죄 대응체계 고도화... 소비자 중심 감독 거버넌스 확립",
+        "link": "https://www.fnnews.com/news/202608131828001448",
         "date": "2026-08-13",
-        "press": "헤럴드경제",
-        "domain": "biz.heraldcorp.com",
-        "reason": "규칙 기반 자동 선정 (AI 미사용)"
-      },
-      {
-        "title": "기후장관 \"발전5사 통폐합, 새로운 거버넌스 잘 만들겠다\"",
-        "link": "https://www.fnnews.com/news/202608111211035811",
-        "date": "2026-08-11",
-        "press": "fnnews.com",
+        "press": "파이낸셜뉴스",
         "domain": "fnnews.com",
         "reason": "규칙 기반 자동 선정 (AI 미사용)"
       },
       {
-        "title": "한국, ICCN '거버넌스 작업반' 공동의장국 수임",
-        "link": "https://www.fnnews.com/news/202608101046449162",
-        "date": "2026-08-10",
-        "press": "fnnews.com",
+        "title": "내부통제 실패에 대가 따른다... '18억 배상' 판례가 남긴 교훈",
+        "link": "https://www.fnnews.com/news/202608131806189116",
+        "date": "2026-08-13",
+        "press": "파이낸셜뉴스",
         "domain": "fnnews.com",
         "reason": "규칙 기반 자동 선정 (AI 미사용)"
       },
       {
-        "title": "법원 제동에도 한방 과잉진료는 계속…제재는 여전히 제자리걸음 [사기공화국의 민낯]",
-        "link": "https://biz.heraldcorp.com/article/10835907",
-        "date": "2026-08-10",
-        "press": "헤럴드경제",
-        "domain": "biz.heraldcorp.com",
+        "title": "한화시스템, 주주환원 목표 143% 달성…ESG에 밸류업 더했다",
+        "link": "https://www.esgeconomy.com/news/articleView.html?idxno=16392",
+        "date": "2026-08-13",
+        "press": "ESG경제",
+        "domain": "esgeconomy.com",
+        "reason": "규칙 기반 자동 선정 (AI 미사용)"
+      },
+      {
+        "title": "한진, 공정위 규제 리스크 비상...대한항공 4가지 ‘미결과제’ 솔루션은",
+        "link": "https://www.esgeconomy.com/news/articleView.html?idxno=16393",
+        "date": "2026-08-13",
+        "press": "ESG경제",
+        "domain": "esgeconomy.com",
         "reason": "규칙 기반 자동 선정 (AI 미사용)"
       }
     ],
     "성평등/다양성(Gender·Diversity)": [
       {
-        "title": "대전시, ‘성평등복지국’ 결국 포기",
-        "link": "https://www.womennews.co.kr/news/articleView.html?idxno=280960",
-        "date": "2026-08-12",
+        "title": "기업 부담은 줄이고 실효성은 높인다…성평등부, 고용평등공시제 현장 안착 논의",
+        "link": "https://www.womennews.co.kr/news/articleView.html?idxno=281009",
+        "date": "2026-08-13",
         "press": "여성신문",
         "domain": "womennews.co.kr",
         "reason": "규칙 기반 자동 선정 (AI 미사용)"
       },
       {
-        "title": "성평등가족부, 여성폭력 ‘2차피해’ 예방 홍보 나선다",
-        "link": "https://www.womennews.co.kr/news/articleView.html?idxno=280951",
-        "date": "2026-08-12",
+        "title": "이천시, 양성평등상 수상자 선정… 9월 4일 시상",
+        "link": "https://www.womennews.co.kr/news/articleView.html?idxno=281006",
+        "date": "2026-08-13",
         "press": "여성신문",
         "domain": "womennews.co.kr",
         "reason": "규칙 기반 자동 선정 (AI 미사용)"
       },
       {
-        "title": "고양시, 31일까지 성평등위 위원 최대 12명 모집",
-        "link": "https://www.newsis.com/view/NISX20260812_0003746554",
+        "title": "모두발언하는 원민경 성평등가족부 장관",
+        "link": "https://www.newsis.com/view/NISI20260813_0021398368",
         "date": "2026-08-13",
         "press": "뉴시스",
         "domain": "newsis.com",
         "reason": "규칙 기반 자동 선정 (AI 미사용)"
       },
       {
-        "title": "양육비 이행률 50% 눈앞…성평등부, 제도 개선 논의",
-        "link": "https://www.newsis.com/view/NISX20260812_0003746792",
+        "title": "성평등가족부 아이돌봄서비스 실태조사 주요 결과 발표",
+        "link": "https://www.newsis.com/view/NISI20260813_0021397644",
         "date": "2026-08-13",
         "press": "뉴시스",
         "domain": "newsis.com",
@@ -174,69 +174,69 @@
     ],
     "지속가능금융(Sustainable Finance)": [
       {
-        "title": "미국은 '그린허싱' vs. 유럽은 녹색채권 342조원 사상 최대",
-        "link": "http://www.impacton.net/news/articleView.html?idxno=19945",
-        "date": "2026-08-12",
+        "title": "8월 3주차 해외 ESG 핫클립",
+        "link": "http://www.impacton.net/news/articleView.html?idxno=19962",
+        "date": "2026-08-13",
         "press": "임팩트온",
         "domain": "impacton.net",
-        "reason": "미국 그린허싱과 유럽 녹색채권 시장 동향을 다룬 최신 지속가능금융 트렌드 기사"
+        "reason": "규칙 기반 자동 선정 (AI 미사용)"
       },
       {
-        "title": "EU, 주주권지침 개정 추진…ESG 주주제안 배제 기준 손본다",
-        "link": "http://www.impacton.net/news/articleView.html?idxno=19937",
-        "date": "2026-08-12",
+        "title": "스위스 정부, ‘화석연료 금융 금지’ 국민 발의안 거부",
+        "link": "http://www.impacton.net/news/articleView.html?idxno=19957",
+        "date": "2026-08-13",
         "press": "임팩트온",
         "domain": "impacton.net",
-        "reason": "EU 주주권지침 개정으로 ESG 주주제안 규율 변화, 기업 거버넌스·투자자 관계에 직접 영향"
+        "reason": "규칙 기반 자동 선정 (AI 미사용)"
       },
       {
-        "title": "NH아문디운용, ESG규정 개편…\"전환금융·스튜어드십 강화\"",
-        "link": "https://www.fnnews.com/news/202608111001392573",
-        "date": "2026-08-11",
-        "press": "fnnews.com",
+        "title": "부동산원·아이엠뱅크, ESG 금융상품 개발 '맞손'",
+        "link": "https://www.fnnews.com/news/202608131622294502",
+        "date": "2026-08-13",
+        "press": "파이낸셜뉴스",
         "domain": "fnnews.com",
-        "reason": "NH아문디운용의 ESG 규정 개편, 전환금융·스튜어드십 강화 등 자산운용사 지속가능금융 대응 사례"
+        "reason": "규칙 기반 자동 선정 (AI 미사용)"
       },
       {
-        "title": "한세모빌리티, 첫 지속가능경영보고서…글로벌 ESG 실사 대응",
-        "link": "https://www.yna.co.kr/view/AKR20260812056000030",
-        "date": "2026-08-12",
-        "press": "연합뉴스",
-        "domain": "yna.co.kr",
-        "reason": "한세모빌리티의 첫 지속가능경영보고서 발간과 글로벌 ESG 실사 대응, 기업의 지속가능금융 리스크 관리 이슈"
+        "title": "iM뱅크-부동산원, 에너지 감축·ESG금융 지원 협약",
+        "link": "https://www.fnnews.com/news/202608131341007648",
+        "date": "2026-08-13",
+        "press": "파이낸셜뉴스",
+        "domain": "fnnews.com",
+        "reason": "규칙 기반 자동 선정 (AI 미사용)"
       }
     ],
     "정의로운 전환(Just Transition)": [
       {
-        "title": "경북대, 대구·경북지역 제조산업 AI 전환 나서",
-        "link": "https://www.newsis.com/view/NISX20260812_0003745884",
-        "date": "2026-08-12",
+        "title": "동서발전-당진시, 석탄발전소 폐지지역 정의로운 전환 협력",
+        "link": "https://www.yna.co.kr/view/AKR20260813056200057",
+        "date": "2026-08-13",
+        "press": "연합뉴스",
+        "domain": "yna.co.kr",
+        "reason": "규칙 기반 자동 선정 (AI 미사용)"
+      },
+      {
+        "title": "산업부, 완성차업계와 미래차 전환·상생협력 모색",
+        "link": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20260813_0003747113",
+        "date": "2026-08-13",
         "press": "뉴시스",
-        "domain": "newsis.com",
+        "domain": "mobile.newsis.com",
         "reason": "규칙 기반 자동 선정 (AI 미사용)"
       },
       {
-        "title": "애경산업, 2Q 매출 1942억 '분기 최대'…흑자전환 성공",
-        "link": "https://www.newsis.com/view/NISX20260812_0003746497",
-        "date": "2026-08-12",
+        "title": "전남광주특별시, 서남권 모빌리티산업 'AI 대전환' 모색",
+        "link": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20260813_0003747852",
+        "date": "2026-08-13",
         "press": "뉴시스",
-        "domain": "newsis.com",
+        "domain": "mobile.newsis.com",
         "reason": "규칙 기반 자동 선정 (AI 미사용)"
       },
       {
-        "title": "동서발전, 당진시와 ‘정의로운 전환’ 위한 상생협력 본격 착수",
-        "link": "http://www.e-platform.net/news/articleView.html?idxno=104527",
-        "date": "2026-08-12",
-        "press": "에너지플랫폼뉴스",
-        "domain": "e-platform.net",
-        "reason": "규칙 기반 자동 선정 (AI 미사용)"
-      },
-      {
-        "title": "동서발전-당진시, '정의로운 에너지 전환' 힘 모은다",
-        "link": "https://www.energydaily.co.kr/news/articleView.html?idxno=202176",
-        "date": "2026-08-12",
-        "press": "에너지데일리",
-        "domain": "energydaily.co.kr",
+        "title": "'정의로운 전환',당진의 악수... 성공의 조건과 남은 시간",
+        "link": "https://www.eroun.net/news/articleView.html?idxno=87512",
+        "date": "2026-08-13",
+        "press": "이로운넷",
+        "domain": "eroun.net",
         "reason": "규칙 기반 자동 선정 (AI 미사용)"
       }
     ]
