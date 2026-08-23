@@ -6535,5 +6535,248 @@
         }
       ]
     }
+  },
+  {
+    "date": "2026-08-23",
+    "categories": {
+      "ESG 공통": [
+        {
+          "title": "국민연금 책임투자 강화…대체투자에도 ESG 원칙 적용",
+          "link": "https://www.esgeconomy.com/news/articleView.html?idxno=16449",
+          "date": "2026-08-21",
+          "press": "ESG경제",
+          "domain": "esgeconomy.com",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "지속가능성 공시 비례성 메커니즘 어떻게 적용하나",
+          "link": "https://www.esgeconomy.com/news/articleView.html?idxno=16448",
+          "date": "2026-08-20",
+          "press": "ESG경제",
+          "domain": "esgeconomy.com",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "재생에너지도 인권실사 예외 아냐…스태트크래프트, 칠레 수력발전사업 인권침해 논란",
+          "link": "http://www.impacton.net/news/articleView.html?idxno=20053",
+          "date": "2026-08-23",
+          "press": "임팩트온",
+          "domain": "impacton.net",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "790조 캐나다 최대연기금 CPP, 투자기업 탄소 집약도·전환 거버넌스 첫 공개",
+          "link": "http://www.impacton.net/news/articleView.html?idxno=20055",
+          "date": "2026-08-23",
+          "press": "임팩트온",
+          "domain": "impacton.net",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        }
+      ],
+      "환경(Environment)": [
+        {
+          "title": "재생에너지도 인권실사 예외 아냐…스태트크래프트, 칠레 수력발전사업 인권침해 논란",
+          "link": "http://www.impacton.net/news/articleView.html?idxno=20053",
+          "date": "2026-08-23",
+          "press": "임팩트온",
+          "domain": "impacton.net",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "한화솔루션 정부의 재생에너지 확대정책 반갑다, 박승덕 '한국판 IRA'로 새 기회 잡나",
+          "link": "https://www.businesspost.co.kr/BP?command=article_view&num=445085",
+          "date": "2026-08-23",
+          "press": "비즈니스포스트",
+          "domain": "businesspost.co.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "美 시장 선점한 한국산 태양광…정작 안방은 중국산에 내줘",
+          "link": "https://m.ekn.kr/view.php?key=20260819022544141",
+          "date": "2026-08-19",
+          "press": "에너지경제신문",
+          "domain": "m.ekn.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "동해가스전 CCUS·해상풍력 활용 기반 마련",
+          "link": "https://www.ulsanpress.net/news/articleView.html?idxno=581503",
+          "date": "2026-08-23",
+          "press": "울산신문",
+          "domain": "ulsanpress.net",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        }
+      ],
+      "노동/인권(Labor·Human Rights)": [
+        {
+          "title": "주간일정(8월24~30일)",
+          "link": "https://www.labortoday.co.kr/news/articleView.html?idxno=236382",
+          "date": "2026-08-24",
+          "press": "매일노동뉴스",
+          "domain": "labortoday.co.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "유급 난임치료휴가 ‘2일→4일’",
+          "link": "https://www.labortoday.co.kr/news/articleView.html?idxno=236374",
+          "date": "2026-08-24",
+          "press": "매일노동뉴스",
+          "domain": "labortoday.co.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "시리즈벤처스, '2026 부산창업기업 액셀러레이팅 프로그램' 킥오프",
+          "link": "https://www.mt.co.kr/future/2026/08/23/2026082309415999636",
+          "date": "2026-08-23",
+          "press": "머니투데이",
+          "domain": "mt.co.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "하청 인권 챙겼다가 교섭 의무?…인권실사법·노란봉투법 충돌 우려",
+          "link": "https://www.asiatoday.co.kr/kn/view.php?key=20260823010007517",
+          "date": "2026-08-23",
+          "press": "아시아투데이",
+          "domain": "asiatoday.co.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        }
+      ],
+      "반부패/거버넌스(Anti-Corruption)": [
+        {
+          "title": "5년새 주가 17만→3만원대 ‘털썩’…카카오, 지배구조 개편 날개달까 [종목Pick]",
+          "link": "https://biz.heraldcorp.com/article/10848317",
+          "date": "2026-08-23",
+          "press": "헤럴드경제",
+          "domain": "biz.heraldcorp.com",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "AI·투자회사로 쪼개진 카카오…'기업가치 재평가' 승부수",
+          "link": "https://www.fnnews.com/news/202608231813439953",
+          "date": "2026-08-23",
+          "press": "파이낸셜뉴스",
+          "domain": "fnnews.com",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "'창사 이래 최대 변화' 카카오, '기업 디스카운트' 해소 가능할까",
+          "link": "https://www.fnnews.com/news/202608231341017162",
+          "date": "2026-08-23",
+          "press": "파이낸셜뉴스",
+          "domain": "fnnews.com",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "중소기업 10곳 중 7곳 “납품대금 빨리 받으면 경영 도움”…적정기한 ‘30일’",
+          "link": "https://biz.heraldcorp.com/article/10848425",
+          "date": "2026-08-23",
+          "press": "헤럴드경제",
+          "domain": "biz.heraldcorp.com",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        }
+      ],
+      "성평등/다양성(Gender·Diversity)": [
+        {
+          "title": "안전한 예술 현장 만들려면...한국예술인복지재단, 성희롱·성폭력 예방 특강",
+          "link": "https://www.womennews.co.kr/news/articleView.html?idxno=281317",
+          "date": "2026-08-23",
+          "press": "여성신문",
+          "domain": "womennews.co.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "직장갑질 감수성 3년 연속 D등급…폭언·모욕 인식도 '후퇴'",
+          "link": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20260821_0003757696",
+          "date": "2026-08-23",
+          "press": "뉴시스",
+          "domain": "mobile.newsis.com",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "육아휴직 악용, 대책 마련 필요",
+          "link": "https://www.jayupress.com/news/articleViewAmp.html?idxno=53851",
+          "date": "2026-08-23",
+          "press": "자유일보",
+          "domain": "jayupress.com",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "“판 바꾸려면 판 위로!” 예술행정가 임형주의 ‘인생 2막’",
+          "link": "https://www.womennews.co.kr/news/articleView.html?idxno=280652",
+          "date": "2026-08-23",
+          "press": "여성신문",
+          "domain": "womennews.co.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        }
+      ],
+      "지속가능금융(Sustainable Finance)": [
+        {
+          "title": "풀무원식품, 강남구 1인가구센터와 '식생활 클래스' 운영 맞손",
+          "link": "https://www.yna.co.kr/view/AKR20260823013100030",
+          "date": "2026-08-23",
+          "press": "연합뉴스",
+          "domain": "yna.co.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "시흥시 ‘제3회 시화호청소년지속가능포럼’ 개최…3개 시 협력",
+          "link": "https://www.fnnews.com/news/202608230953210034",
+          "date": "2026-08-23",
+          "press": "파이낸셜뉴스",
+          "domain": "fnnews.com",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "풀무원식품, 강남구 1인가구센터와 '식생활 클래스' 운영",
+          "link": "https://www.fnnews.com/news/202608231254097485",
+          "date": "2026-08-23",
+          "press": "파이낸셜뉴스",
+          "domain": "fnnews.com",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "대한상의 제3회 사회적가치 페스타 참관객 사전등록",
+          "link": "https://www.yna.co.kr/amp/view/AKR20260823036300003",
+          "date": "2026-08-24",
+          "press": "연합뉴스",
+          "domain": "yna.co.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        }
+      ],
+      "정의로운 전환(Just Transition)": [
+        {
+          "title": "검사 손 떠나는 노동감독…관리자 890명 수사 역량 높인다",
+          "link": "https://www.newsis.com/view/NISX20260821_0003758221",
+          "date": "2026-08-23",
+          "press": "뉴시스",
+          "domain": "newsis.com",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "노동부, 검찰지휘 폐지 전 노동감독관 교육 강화…수사학교 신설",
+          "link": "https://www.yna.co.kr/amp/view/AKR20260821153600530",
+          "date": "2026-08-23",
+          "press": "연합뉴스",
+          "domain": "yna.co.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "석탄화력 폐지, 발전소만 닫지 않는다…‘정의로운 전환’ 특별법 국회 통과",
+          "link": "https://www.inpnews.kr/news/articleView.html?idxno=7538",
+          "date": "2026-08-21",
+          "press": "인사이트N파워",
+          "domain": "inpnews.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "석탄화력 특별법 통과⋯박수현 \"정의로운 전환 앞장설 것\"",
+          "link": "https://tjmbc.co.kr/NewsArticle/858025",
+          "date": "2026-08-21",
+          "press": "대전MBC",
+          "domain": "tjmbc.co.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        }
+      ]
+    }
   }
 ]
