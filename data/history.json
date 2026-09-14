@@ -11638,5 +11638,248 @@
         }
       ]
     }
+  },
+  {
+    "date": "2026-09-14",
+    "categories": {
+      "ESG 공통": [
+        {
+          "title": "정책 따라 갈린 청정에너지 산업…유럽은 인력난·미국은 일자리 위기",
+          "link": "https://www.esgeconomy.com/news/articleView.html?idxno=16710",
+          "date": "2026-09-14",
+          "press": "ESG경제",
+          "domain": "esgeconomy.com",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "신한금융, 전환위험 34조원ㆍ물리적 위험 담보 11.7조원 공개",
+          "link": "http://www.impacton.net/news/articleView.html?idxno=20289",
+          "date": "2026-09-14",
+          "press": "임팩트온",
+          "domain": "impacton.net",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "ECB, 666조원 기업대출 담보에 ‘기후위험’ 반영…은행들 “계산식 공개하라”",
+          "link": "http://www.impacton.net/news/articleView.html?idxno=20288",
+          "date": "2026-09-14",
+          "press": "임팩트온",
+          "domain": "impacton.net",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "ESG, 규제 비용에서 경영 인프라로 — 2026년 기업 지속가능성의 결정적 전환:장애인인식개선신문",
+          "link": "http://www.dpi1004.com/sub_read_amp.html?uid=17364",
+          "date": "2026-09-13",
+          "press": "장애인인식개선신문",
+          "domain": "dpi1004.com",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        }
+      ],
+      "환경(Environment)": [
+        {
+          "title": "현대차·기아, LG엔솔과 '수명다한 전기차 배터리' ESS로 재사용 실증 나서",
+          "link": "https://www.businesspost.co.kr/BP?command=article_view&num=446915",
+          "date": "2026-09-10",
+          "press": "비즈니스포스트",
+          "domain": "businesspost.co.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "신한금융, 전환위험 34조원ㆍ물리적 위험 담보 11.7조원 공개",
+          "link": "http://www.impacton.net/news/articleView.html?idxno=20289",
+          "date": "2026-09-14",
+          "press": "임팩트온",
+          "domain": "impacton.net",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "한국기후변화연구원-한국CCUS추진단, 탄소중립 공동연구 맞손",
+          "link": "https://v.daum.net/v/20260913114152234",
+          "date": "2026-09-13",
+          "press": "v.daum.net",
+          "domain": "v.daum.net",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "한국기후변화연구원-한국CCUS추진단, 11일 기후변화 대응 위해 ‘맞손’",
+          "link": "https://www.kwnews.co.kr/article/20260913500692",
+          "date": "2026-09-13",
+          "press": "강원일보",
+          "domain": "kwnews.co.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        }
+      ],
+      "노동/인권(Labor·Human Rights)": [
+        {
+          "title": "직장폐쇄 기간 임금, 청구할 수 있을까",
+          "link": "https://www.labortoday.co.kr/news/articleView.html?idxno=236765",
+          "date": "2026-09-14",
+          "press": "매일노동뉴스",
+          "domain": "labortoday.co.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "신당역 사건 4주기 “직장내 젠더폭력 위험 여전”",
+          "link": "https://www.labortoday.co.kr/news/articleView.html?idxno=236753",
+          "date": "2026-09-14",
+          "press": "매일노동뉴스",
+          "domain": "labortoday.co.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "'실사판 춘리' 日 미녀 파이터 반전, 외모만 화제 아니었다 '화끈 백열각' 세례 \"괴물 수준... 실력도 진짜다\" 전승 질주",
+          "link": "https://www.mt.co.kr/sports/2026/09/14/2026091315491872884",
+          "date": "2026-09-14",
+          "press": "머니투데이",
+          "domain": "mt.co.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "용혜인 사퇴에 '현역 의원 불패' 두 번 깨진 성평등부…\"인력풀 적어\"",
+          "link": "https://www.mt.co.kr/policy/2026/09/13/2026091312442976355",
+          "date": "2026-09-13",
+          "press": "머니투데이",
+          "domain": "mt.co.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        }
+      ],
+      "반부패/거버넌스(Anti-Corruption)": [
+        {
+          "title": "AI가 장부까지 쓴다…삼정KPMG \"재무혁신, 내부통제가 관건\"",
+          "link": "https://www.fnnews.com/news/202609140841034867",
+          "date": "2026-09-14",
+          "press": "파이낸셜뉴스",
+          "domain": "fnnews.com",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "프랑스, 인판티노 FIFA 회장 지지 철회…\"거버넌스 개혁 촉구\"",
+          "link": "https://www.fnnews.com/news/202609111029403428",
+          "date": "2026-09-11",
+          "press": "파이낸셜뉴스",
+          "domain": "fnnews.com",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "앤트로픽·오픈AI IPO 앞두고 AI 안전 우려 급부상",
+          "link": "https://www.esgeconomy.com/news/articleView.html?idxno=16711",
+          "date": "2026-09-14",
+          "press": "ESG경제",
+          "domain": "esgeconomy.com",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "기업까지 흔드는 ‘가족의 재구성’…상속과 이혼의 기술들[홍길용의 화식열전](914회)",
+          "link": "https://mbiz.heraldcorp.com/article/10871819",
+          "date": "2026-09-14",
+          "press": "헤럴드경제",
+          "domain": "mbiz.heraldcorp.com",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        }
+      ],
+      "성평등/다양성(Gender·Diversity)": [
+        {
+          "title": "용혜인 성평등부 장관 후보자 자진사퇴… “민주당 결단해달라 했다”",
+          "link": "https://www.womennews.co.kr/news/articleView.html?idxno=282139",
+          "date": "2026-09-13",
+          "press": "여성신문",
+          "domain": "womennews.co.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "용혜인 성평등가족부 장관 후보자 자진 사퇴… 지명 2주만",
+          "link": "https://www.womennews.co.kr/news/articleView.html?idxno=282136",
+          "date": "2026-09-13",
+          "press": "여성신문",
+          "domain": "womennews.co.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "용혜인 2주 만에 사퇴···장관 공백 1년 7개월 전례, 성평등부 인선 또 난항",
+          "link": "https://www.womaneconomy.co.kr/news/articleView.html?idxno=258672",
+          "date": "2026-09-13",
+          "press": "여성경제신문",
+          "domain": "womaneconomy.co.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "용혜인 성평등가족부 장관 후보자 자진사퇴…용 \"여당으로부터 결단해달라고 전달받아\"(종합)",
+          "link": "https://www.newsis.com/view/NISX20260913_0003787241",
+          "date": "2026-09-13",
+          "press": "뉴시스",
+          "domain": "newsis.com",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        }
+      ],
+      "지속가능금융(Sustainable Finance)": [
+        {
+          "title": "신한금융, 전환위험 34조원ㆍ물리적 위험 담보 11.7조원 공개",
+          "link": "http://www.impacton.net/news/articleView.html?idxno=20289",
+          "date": "2026-09-14",
+          "press": "임팩트온",
+          "domain": "impacton.net",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "ECB, 666조원 기업대출 담보에 ‘기후위험’ 반영…은행들 “계산식 공개하라”",
+          "link": "http://www.impacton.net/news/articleView.html?idxno=20288",
+          "date": "2026-09-14",
+          "press": "임팩트온",
+          "domain": "impacton.net",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "국민은행, 'K-Bee프로젝트-꿀벌 체험 교실' 실시",
+          "link": "https://www.fnnews.com/news/202609130949126075",
+          "date": "2026-09-13",
+          "press": "파이낸셜뉴스",
+          "domain": "fnnews.com",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "세계 ODA 23% 급감 '역대 최대'…韓, 개발협력 공백 선점해야",
+          "link": "https://www.fnnews.com/news/202609131001038271",
+          "date": "2026-09-13",
+          "press": "파이낸셜뉴스",
+          "domain": "fnnews.com",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        }
+      ],
+      "정의로운 전환(Just Transition)": [
+        {
+          "title": "경남도, 조선산업 AI 전환·글로벌 제조 AI 허브 구축 박차",
+          "link": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20260913_0003787321",
+          "date": "2026-09-13",
+          "press": "뉴시스",
+          "domain": "mobile.newsis.com",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "충남도의회 '정의로운 전환 특위'…석탄화력 폐쇄 대응",
+          "link": "https://www.nocutnews.co.kr/news/6577279",
+          "date": "2026-09-13",
+          "press": "노컷뉴스",
+          "domain": "nocutnews.co.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "창원 도심서 기후정의행진…\"재생에너지 전환 서둘러야\"",
+          "link": "https://www.yna.co.kr/view/AKR20260911127000052",
+          "date": "2026-09-12",
+          "press": "연합뉴스",
+          "domain": "yna.co.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "황폐한 사막을 '태양광 만리장성'으로…중국 에너지 전환 가속",
+          "link": "https://www.yna.co.kr/amp/view/MYH20260912005900038",
+          "date": "2026-09-12",
+          "press": "연합뉴스",
+          "domain": "yna.co.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        }
+      ]
+    }
   }
 ]
