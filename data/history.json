@@ -1,248 +1,5 @@
 [
   {
-    "date": "2026-09-02",
-    "categories": {
-      "ESG 공통": [
-        {
-          "title": "한국ESG평가원, 고려아연 이사회 추천 감사위원 찬성 의결 권고",
-          "link": "https://www.esgeconomy.com/news/articleView.html?idxno=16567",
-          "date": "2026-09-01",
-          "press": "ESG경제",
-          "domain": "esgeconomy.com",
-          "reason": "규칙 기반 자동 선정 (AI 미사용)"
-        },
-        {
-          "title": "펲시코, STBiㆍGHG 프로토콜 최신 표준 적용...배출 보고서 들여다 보니",
-          "link": "https://www.esgeconomy.com/news/articleView.html?idxno=16580",
-          "date": "2026-09-02",
-          "press": "ESG경제",
-          "domain": "esgeconomy.com",
-          "reason": "규칙 기반 자동 선정 (AI 미사용)"
-        },
-        {
-          "title": "미오테크·CCX, ESG 사업 통합·누빈, 10억달러 이상 C-PACE 펀드 조달·SLB, 40억달러 규모 켈비온 인수 합의",
-          "link": "http://www.impacton.net/news/articleView.html?idxno=20159",
-          "date": "2026-09-01",
-          "press": "임팩트온",
-          "domain": "impacton.net",
-          "reason": "규칙 기반 자동 선정 (AI 미사용)"
-        },
-        {
-          "title": "배터리 삼각벨트 인프라 조성·K-글로벌 벤처펀드 추진",
-          "link": "http://www.impacton.net/news/articleView.html?idxno=20175",
-          "date": "2026-09-02",
-          "press": "임팩트온",
-          "domain": "impacton.net",
-          "reason": "규칙 기반 자동 선정 (AI 미사용)"
-        }
-      ],
-      "환경(Environment)": [
-        {
-          "title": "미, 2분기 ESS 역대 최대로 설치했다",
-          "link": "http://www.impacton.net/news/articleView.html?idxno=20174",
-          "date": "2026-09-02",
-          "press": "임팩트온",
-          "domain": "impacton.net",
-          "reason": "규칙 기반 자동 선정 (AI 미사용)"
-        },
-        {
-          "title": "태양광·전기차에 전력망 출렁이자… 지멘스, 美 전력 분석 기업 EPG와 맞손",
-          "link": "http://www.impacton.net/news/articleView.html?idxno=20173",
-          "date": "2026-09-02",
-          "press": "임팩트온",
-          "domain": "impacton.net",
-          "reason": "규칙 기반 자동 선정 (AI 미사용)"
-        },
-        {
-          "title": "영원무역 지속가능경영보고서 영문판 발간, 성래은 \"ESG 정보 투명하게 공개\"",
-          "link": "https://www.businesspost.co.kr/BP?command=article_view&num=446077",
-          "date": "2026-09-01",
-          "press": "비즈니스포스트",
-          "domain": "businesspost.co.kr",
-          "reason": "규칙 기반 자동 선정 (AI 미사용)"
-        },
-        {
-          "title": "LG에너지솔루션 2조 규모 미국산 탄산리튬 공급 계약, 10년치 물량 확보",
-          "link": "https://www.businesspost.co.kr/BP?command=article_view&num=446070",
-          "date": "2026-09-01",
-          "press": "비즈니스포스트",
-          "domain": "businesspost.co.kr",
-          "reason": "규칙 기반 자동 선정 (AI 미사용)"
-        }
-      ],
-      "노동/인권(Labor·Human Rights)": [
-        {
-          "title": "지방노동감독관 제도는 어떻게 설계해야 하나",
-          "link": "https://www.labortoday.co.kr/news/articleView.html?idxno=236560",
-          "date": "2026-09-02",
-          "press": "매일노동뉴스",
-          "domain": "labortoday.co.kr",
-          "reason": "규칙 기반 자동 선정 (AI 미사용)"
-        },
-        {
-          "title": "고용노동부",
-          "link": "https://www.labortoday.co.kr/news/articleView.html?idxno=236553",
-          "date": "2026-09-02",
-          "press": "매일노동뉴스",
-          "domain": "labortoday.co.kr",
-          "reason": "규칙 기반 자동 선정 (AI 미사용)"
-        },
-        {
-          "title": "법무법인 광장, 10일 중대재해처벌법·노란봉투법 대응 세미나 - 조선비즈",
-          "link": "https://biz.chosun.com/topics/law_firm/2026/09/02/45FKFHSRM5BDHPGOERI5SJUZIU/",
-          "date": "2026-09-02",
-          "press": "biz.chosun.com",
-          "domain": "biz.chosun.com",
-          "reason": "규칙 기반 자동 선정 (AI 미사용)"
-        },
-        {
-          "title": "최저임금보다 더 받는 실업급여, 월 198만원→176만원 줄인다",
-          "link": "https://www.chosun.com/national/labor/2026/09/01/OVNTEBB7EVBPFOQPCEOG7BUUXY/",
-          "date": "2026-09-01",
-          "press": "조선일보",
-          "domain": "chosun.com",
-          "reason": "규칙 기반 자동 선정 (AI 미사용)"
-        }
-      ],
-      "반부패/거버넌스(Anti-Corruption)": [
-        {
-          "title": "TS, 국민·청년대표와 '소신껏 떳떳하게' 윤리경영 다짐",
-          "link": "https://www.fnnews.com/news/202608311411377897",
-          "date": "2026-08-31",
-          "press": "파이낸셜뉴스",
-          "domain": "fnnews.com",
-          "reason": "규칙 기반 자동 선정 (AI 미사용)"
-        },
-        {
-          "title": "고려아연 감사위원 표대결, 의결권 자문사 9곳 중 8곳 백인규 지지",
-          "link": "https://www.esgeconomy.com/news/articleView.html?idxno=16558",
-          "date": "2026-09-01",
-          "press": "ESG경제",
-          "domain": "esgeconomy.com",
-          "reason": "규칙 기반 자동 선정 (AI 미사용)"
-        },
-        {
-          "title": "한국ESG평가원, 고려아연 이사회 추천 감사위원 찬성 의결 권고",
-          "link": "https://www.esgeconomy.com/news/articleView.html?idxno=16567",
-          "date": "2026-09-01",
-          "press": "ESG경제",
-          "domain": "esgeconomy.com",
-          "reason": "규칙 기반 자동 선정 (AI 미사용)"
-        },
-        {
-          "title": "임종룡 우리금융 회장, 자사주 5000주 매수…“기업가치 제고 의지”",
-          "link": "https://biz.heraldcorp.com/article/10859732",
-          "date": "2026-09-02",
-          "press": "헤럴드경제",
-          "domain": "biz.heraldcorp.com",
-          "reason": "규칙 기반 자동 선정 (AI 미사용)"
-        }
-      ],
-      "성평등/다양성(Gender·Diversity)": [
-        {
-          "title": "류상우 “양성평등 사각지대 어르신 세대…‘국민손자’ 되고싶다”",
-          "link": "https://www.womennews.co.kr/news/articleView.html?idxno=281674",
-          "date": "2026-09-02",
-          "press": "여성신문",
-          "domain": "womennews.co.kr",
-          "reason": "규칙 기반 자동 선정 (AI 미사용)"
-        },
-        {
-          "title": "출산 후 영화감독 된 이정현 “양성평등문화상, 계속하라는 용기”",
-          "link": "https://www.womennews.co.kr/news/articleView.html?idxno=281682",
-          "date": "2026-09-02",
-          "press": "여성신문",
-          "domain": "womennews.co.kr",
-          "reason": "규칙 기반 자동 선정 (AI 미사용)"
-        },
-        {
-          "title": "첫 출근하는 용혜인 성평등가족부 장관 후보자",
-          "link": "https://mobile.newsis.com/photo/NISI20260902_0021419531",
-          "date": "2026-09-02",
-          "press": "뉴시스",
-          "domain": "mobile.newsis.com",
-          "reason": "규칙 기반 자동 선정 (AI 미사용)"
-        },
-        {
-          "title": "성평등부 예산 2.1조 '역대 최대'…\"결혼하면 100만원\"[2027 예산안]",
-          "link": "https://www.newsis.com/view/NISX20260901_0003771361",
-          "date": "2026-09-01",
-          "press": "뉴시스",
-          "domain": "newsis.com",
-          "reason": "규칙 기반 자동 선정 (AI 미사용)"
-        }
-      ],
-      "지속가능금융(Sustainable Finance)": [
-        {
-          "title": "미오테크·CCX, ESG 사업 통합·누빈, 10억달러 이상 C-PACE 펀드 조달·SLB, 40억달러 규모 켈비온 인수 합의",
-          "link": "http://www.impacton.net/news/articleView.html?idxno=20159",
-          "date": "2026-09-01",
-          "press": "임팩트온",
-          "domain": "impacton.net",
-          "reason": "규칙 기반 자동 선정 (AI 미사용)"
-        },
-        {
-          "title": "전환금융 790조 공급 앞두고 ‘관리 공백’…금융기관 3곳 중 1곳만 넷제로 목표",
-          "link": "http://www.impacton.net/news/articleView.html?idxno=20146",
-          "date": "2026-08-31",
-          "press": "임팩트온",
-          "domain": "impacton.net",
-          "reason": "규칙 기반 자동 선정 (AI 미사용)"
-        },
-        {
-          "title": "신한금융 창립 25주년...진옥동 \"신뢰로 더 높이 도약\"",
-          "link": "https://www.fnnews.com/news/202609011114177065",
-          "date": "2026-09-01",
-          "press": "파이낸셜뉴스",
-          "domain": "fnnews.com",
-          "reason": "규칙 기반 자동 선정 (AI 미사용)"
-        },
-        {
-          "title": "진옥동 \"신뢰 잃으면 성장 기회도 없다\"",
-          "link": "https://www.fnnews.com/news/202609011802387181",
-          "date": "2026-09-01",
-          "press": "파이낸셜뉴스",
-          "domain": "fnnews.com",
-          "reason": "규칙 기반 자동 선정 (AI 미사용)"
-        }
-      ],
-      "정의로운 전환(Just Transition)": [
-        {
-          "title": "⑤ 산업전환 시험대 선 카자흐, '광물·신도시' 기회와 과제",
-          "link": "https://www.yna.co.kr/view/AKR20260827005300371",
-          "date": "2026-09-02",
-          "press": "연합뉴스",
-          "domain": "yna.co.kr",
-          "reason": "규칙 기반 자동 선정 (AI 미사용)"
-        },
-        {
-          "title": "여성 첫 구직·직무전환 돕는 새일센터, 새 이름 찾는다",
-          "link": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20260831_0003768935",
-          "date": "2026-08-31",
-          "press": "뉴시스",
-          "domain": "mobile.newsis.com",
-          "reason": "규칙 기반 자동 선정 (AI 미사용)"
-        },
-        {
-          "title": "\"충남에 정의로운 전환 지원센터 세워야\"..홍기후 도의원 5분 발언",
-          "link": "https://www.idjnews.kr/news/articleView.html?idxno=302460",
-          "date": "2026-09-01",
-          "press": "당진신문",
-          "domain": "idjnews.kr",
-          "reason": "규칙 기반 자동 선정 (AI 미사용)"
-        },
-        {
-          "title": "홍기후 충남도의원, 정의로운 전환센터 촉구",
-          "link": "https://www.atnnews.co.kr/news/articleView.html?idxno=111221",
-          "date": "2026-09-01",
-          "press": "에이티엔뉴스",
-          "domain": "atnnews.co.kr",
-          "reason": "규칙 기반 자동 선정 (AI 미사용)"
-        }
-      ]
-    }
-  },
-  {
     "date": "2026-09-03",
     "categories": {
       "ESG 공통": [
@@ -14654,6 +14411,249 @@
           "date": "2026-10-30",
           "press": "뉴시스",
           "domain": "mobile.newsis.com",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        }
+      ]
+    }
+  },
+  {
+    "date": "2026-11-02",
+    "categories": {
+      "ESG 공통": [
+        {
+          "title": "\"테슬라 FSD는 '완전자율주행' 보증 아냐\"…차주 89명 환불 소송 1심 패소 의미는",
+          "link": "https://www.esgeconomy.com/news/articleView.html?idxno=17200",
+          "date": "2026-11-01",
+          "press": "ESG경제",
+          "domain": "esgeconomy.com",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "국민연금 리밸런싱 유예 동안 외국인 '대박' 개인 '쪽박'?…국정조사로 따져야",
+          "link": "https://www.esgeconomy.com/news/articleView.html?idxno=17199",
+          "date": "2026-11-01",
+          "press": "ESG경제",
+          "domain": "esgeconomy.com",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "넷제로 경제부터 핵심광물·정의로운 전환·기후도시까지",
+          "link": "https://www.impacton.net/news/articleView.html?idxno=30485",
+          "date": "2026-11-01",
+          "press": "임팩트온",
+          "domain": "impacton.net",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "T1에너지, 태양광 모듈 1.58GW 공급·슈퍼크리티컬, 바이오차 탄소제거 계약·NWABF, SAF 공장 건설 자금 확보",
+          "link": "https://www.impacton.net/news/articleView.html?idxno=30487",
+          "date": "2026-11-02",
+          "press": "임팩트온",
+          "domain": "impacton.net",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        }
+      ],
+      "환경(Environment)": [
+        {
+          "title": "인도 석탄 발전량 3년 만에 최대, 재생에너지 증가에도 화석연료 비중 올라",
+          "link": "https://www.businesspost.co.kr/BP?command=article_view&num=450870",
+          "date": "2026-11-02",
+          "press": "비즈니스포스트",
+          "domain": "businesspost.co.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "T1에너지, 태양광 모듈 1.58GW 공급·슈퍼크리티컬, 바이오차 탄소제거 계약·NWABF, SAF 공장 건설 자금 확보",
+          "link": "https://www.impacton.net/news/articleView.html?idxno=30487",
+          "date": "2026-11-02",
+          "press": "임팩트온",
+          "domain": "impacton.net",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "손님이 하나뿐인 시장의 탄소 가격",
+          "link": "https://m.ekn.kr/view.php?key=20261102028373291",
+          "date": "2026-11-02",
+          "press": "에너지경제신문",
+          "domain": "m.ekn.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "美 국제무역법원, 포스코 추가 탄소배출권 상계관세 대상 판단 유지",
+          "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1730001",
+          "date": "2026-11-02",
+          "press": "www.ebn.co.kr",
+          "domain": "ebn.co.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        }
+      ],
+      "노동/인권(Labor·Human Rights)": [
+        {
+          "title": "취약계층 사회보험 지원 줄이는 노동부 예산안",
+          "link": "https://www.labortoday.co.kr/news/articleView.html?idxno=237518",
+          "date": "2026-11-02",
+          "press": "매일노동뉴스",
+          "domain": "labortoday.co.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "동의 없이 변경한 임금체계, 줄어든 임금 청구 가능할까",
+          "link": "https://www.labortoday.co.kr/news/articleView.html?idxno=237516",
+          "date": "2026-11-02",
+          "press": "매일노동뉴스",
+          "domain": "labortoday.co.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "26화 겨울방주의 칼럼-296(UN & ILO)",
+          "link": "https://brunch.co.kr/@e446f1d4ac11425/1801",
+          "date": "2026-10-30",
+          "press": "브런치",
+          "domain": "brunch.co.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "금호타이어 광주공장서 30대 근로자 끼임 사고로 숨져",
+          "link": "https://www.mt.co.kr/index.php/amp/industry/2026/11/01/2026110116274251498",
+          "date": "2026-11-01",
+          "press": "머니투데이",
+          "domain": "mt.co.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        }
+      ],
+      "반부패/거버넌스(Anti-Corruption)": [
+        {
+          "title": "’저PBR’ 꼬리표 기업 명단 첫 공개…밸류업 압박",
+          "link": "https://www.yonhapnewstv.co.kr/news/MYH20261102053552gFS",
+          "date": "2026-11-02",
+          "press": "연합뉴스TV",
+          "domain": "yonhapnewstv.co.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "한화생명 등 금융사 5곳 '저PBR 기업' 공표…밸류업 압박 커진다",
+          "link": "https://www.newstopkorea.com/news/articleView.html?idxno=48672",
+          "date": "2026-11-02",
+          "press": "뉴스톱",
+          "domain": "newstopkorea.com",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "'퇴임 10년' 국영기업 회장 조사…中 몰아치는 반부패 운동",
+          "link": "https://m.nocutnews.co.kr/news/amp/6600272",
+          "date": "2026-11-01",
+          "press": "노컷뉴스",
+          "domain": "m.nocutnews.co.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "윤리경영·지역경제 기여···경기도, ‘착한기업’ 16개사에 인증서 수여",
+          "link": "https://www.khan.co.kr/article/202611021025001",
+          "date": "2026-11-02",
+          "press": "경향신문",
+          "domain": "khan.co.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        }
+      ],
+      "성평등/다양성(Gender·Diversity)": [
+        {
+          "title": "“농촌 일도 성평등하게” 이장 선거 ‘1인 1표’ 확산",
+          "link": "https://www.womennews.co.kr/news/articleView.html?idxno=283975",
+          "date": "2026-11-01",
+          "press": "여성신문",
+          "domain": "womennews.co.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "수원 사회복지사, 무급 육아휴직 도입…최대 2년 더 쉰다",
+          "link": "https://www.newsis.com/view/NISX20261028_0003844140",
+          "date": "2026-10-28",
+          "press": "뉴시스",
+          "domain": "newsis.com",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "‘여성 주도 기후정의’ 이끈 전 아일랜드 대통령, GGGI 첫 여성 의장",
+          "link": "https://www.womennews.co.kr/news/articleView.html?idxno=283982",
+          "date": "2026-11-02",
+          "press": "여성신문",
+          "domain": "womennews.co.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "'성인지 감수성 높여 건강한 공직사회로'… 봉화군, 고위직 공무원 폭력예방 교육 실시",
+          "link": "https://www.eroun.net/news/articleView.html?idxno=93973",
+          "date": "2026-11-01",
+          "press": "이로운넷",
+          "domain": "eroun.net",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        }
+      ],
+      "지속가능금융(Sustainable Finance)": [
+        {
+          "title": "'오일씰' 국산화로 글로벌 경쟁력 강화… 진양오일씰 금탑훈장[제50회 국가생산성대회]",
+          "link": "https://www.fnnews.com/news/202611011842400566",
+          "date": "2026-11-01",
+          "press": "파이낸셜뉴스",
+          "domain": "fnnews.com",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "中CXMT \"4F²기반 6세대 D램 시제품 검증 완료…점진적 양산\"",
+          "link": "https://www.yna.co.kr/view/AKR20261101023300089",
+          "date": "2026-11-01",
+          "press": "연합뉴스",
+          "domain": "yna.co.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "도시 전역이 디자인 무대…'디자인 부산' 5일 개막",
+          "link": "https://www.yna.co.kr/view/AKR20261102019200051",
+          "date": "2026-11-02",
+          "press": "연합뉴스",
+          "domain": "yna.co.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "부산·울산기업 3곳 '우수조달물품' 선정",
+          "link": "https://www.fnnews.com/news/202611011923560916",
+          "date": "2026-11-01",
+          "press": "파이낸셜뉴스",
+          "domain": "fnnews.com",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        }
+      ],
+      "정의로운 전환(Just Transition)": [
+        {
+          "title": "넷제로 경제부터 핵심광물·정의로운 전환·기후도시까지",
+          "link": "https://www.impacton.net/news/articleView.html?idxno=30485",
+          "date": "2026-11-01",
+          "press": "임팩트온",
+          "domain": "impacton.net",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "한화금융, 퇴직연금 2030 비전 선포…기금형 전환 대비",
+          "link": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20261102_0003850505",
+          "date": "2026-11-02",
+          "press": "뉴시스",
+          "domain": "mobile.newsis.com",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "KT, 3G 서비스 신규가입 중단…LTE·5G 전환 지원",
+          "link": "https://www.yna.co.kr/view/RPR20261102000800353",
+          "date": "2026-11-02",
+          "press": "연합뉴스",
+          "domain": "yna.co.kr",
+          "reason": "규칙 기반 자동 선정 (AI 미사용)"
+        },
+        {
+          "title": "KT, 3G 신규 가입 중단…무료 단말·요금할인으로 전환 지원",
+          "link": "https://www.yna.co.kr/view/AKR20261102044100017",
+          "date": "2026-11-02",
+          "press": "연합뉴스",
+          "domain": "yna.co.kr",
           "reason": "규칙 기반 자동 선정 (AI 미사용)"
         }
       ]
